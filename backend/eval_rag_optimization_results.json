@@ -1,0 +1,231 @@
+{
+  "sample_size": 50,
+  "models": {
+    "bi_encoder": "bkai-foundation-models/vietnamese-bi-encoder",
+    "cross_encoder": "cross-encoder/ms-marco-MiniLM-L-6-v2"
+  },
+  "step1": {
+    "Recall@1": 0.76,
+    "Recall@3": 0.92,
+    "Recall@5": 0.96,
+    "Precision@3": 0.5466666666666667
+  },
+  "step2": {
+    "Recall@3": 0.72,
+    "Precision@3": 0.38666666666666666
+  },
+  "step3": {
+    "AccuracyMean": 0.72,
+    "TopicAccuracy": {
+      "Chuong trinh dao tao": 0.6666666666666666,
+      "Hoc phi": 0.0,
+      "Khac": 0.9090909090909091,
+      "Thu tuc hanh chinh": 0.6666666666666666,
+      "Tuyen sinh": 0.6956521739130435
+    },
+    "BestConfig": {
+      "alpha": 0.65,
+      "pool": 10,
+      "expansion_limit": 1
+    },
+    "Recall@3": 0.72,
+    "Recall@5": 0.8,
+    "Precision@3": 0.38666666666666666,
+    "Recall@3BeforeRerank": 0.8,
+    "Precision@3BeforeRerank": 0.4733333333333334
+  },
+  "step4": {
+    "LLM_Accuracy": 0.0,
+    "MeanSemanticCosine": 0.26070939615368843,
+    "MeanLatencyMs": 1454.8850297927856,
+    "P95LatencyMs": 1557.0292115211487,
+    "SelectedModelCounts": {
+      "extractive-fallback": 50
+    },
+    "DualModeEnabled": true,
+    "TopicAccuracy": {
+      "Chuong trinh dao tao": 0.0,
+      "Hoc phi": 0.0,
+      "Khac": 0.0,
+      "Thu tuc hanh chinh": 0.0,
+      "Tuyen sinh": 0.0
+    }
+  },
+  "tuning_grid": [
+    {
+      "alpha": "0.45",
+      "pool": "10",
+      "expand": "1",
+      "Recall@5": "0.780",
+      "Precision@3": "0.427"
+    },
+    {
+      "alpha": "0.45",
+      "pool": "10",
+      "expand": "2",
+      "Recall@5": "0.760",
+      "Precision@3": "0.420"
+    },
+    {
+      "alpha": "0.45",
+      "pool": "20",
+      "expand": "1",
+      "Recall@5": "0.780",
+      "Precision@3": "0.427"
+    },
+    {
+      "alpha": "0.45",
+      "pool": "20",
+      "expand": "2",
+      "Recall@5": "0.760",
+      "Precision@3": "0.420"
+    },
+    {
+      "alpha": "0.45",
+      "pool": "30",
+      "expand": "1",
+      "Recall@5": "0.780",
+      "Precision@3": "0.427"
+    },
+    {
+      "alpha": "0.45",
+      "pool": "30",
+      "expand": "2",
+      "Recall@5": "0.760",
+      "Precision@3": "0.420"
+    },
+    {
+      "alpha": "0.55",
+      "pool": "10",
+      "expand": "1",
+      "Recall@5": "0.800",
+      "Precision@3": "0.460"
+    },
+    {
+      "alpha": "0.55",
+      "pool": "10",
+      "expand": "2",
+      "Recall@5": "0.800",
+      "Precision@3": "0.467"
+    },
+    {
+      "alpha": "0.55",
+      "pool": "20",
+      "expand": "1",
+      "Recall@5": "0.800",
+      "Precision@3": "0.460"
+    },
+    {
+      "alpha": "0.55",
+      "pool": "20",
+      "expand": "2",
+      "Recall@5": "0.800",
+      "Precision@3": "0.467"
+    },
+    {
+      "alpha": "0.55",
+      "pool": "30",
+      "expand": "1",
+      "Recall@5": "0.800",
+      "Precision@3": "0.460"
+    },
+    {
+      "alpha": "0.55",
+      "pool": "30",
+      "expand": "2",
+      "Recall@5": "0.800",
+      "Precision@3": "0.467"
+    },
+    {
+      "alpha": "0.65",
+      "pool": "10",
+      "expand": "1",
+      "Recall@5": "0.800",
+      "Precision@3": "0.473"
+    },
+    {
+      "alpha": "0.65",
+      "pool": "10",
+      "expand": "2",
+      "Recall@5": "0.800",
+      "Precision@3": "0.473"
+    },
+    {
+      "alpha": "0.65",
+      "pool": "20",
+      "expand": "1",
+      "Recall@5": "0.800",
+      "Precision@3": "0.473"
+    },
+    {
+      "alpha": "0.65",
+      "pool": "20",
+      "expand": "2",
+      "Recall@5": "0.800",
+      "Precision@3": "0.473"
+    },
+    {
+      "alpha": "0.65",
+      "pool": "30",
+      "expand": "1",
+      "Recall@5": "0.800",
+      "Precision@3": "0.473"
+    },
+    {
+      "alpha": "0.65",
+      "pool": "30",
+      "expand": "2",
+      "Recall@5": "0.800",
+      "Precision@3": "0.473"
+    }
+  ],
+  "final_compare": [
+    {
+      "Metric": "Recall@1",
+      "Baseline": "0.120",
+      "Step1": "0.760",
+      "Step2": "-",
+      "Step3": "-",
+      "Step4": "-"
+    },
+    {
+      "Metric": "Recall@3",
+      "Baseline": "0.200",
+      "Step1": "0.920",
+      "Step2": "0.720",
+      "Step3": "0.720",
+      "Step4": "-"
+    },
+    {
+      "Metric": "Recall@5",
+      "Baseline": "0.260",
+      "Step1": "0.960",
+      "Step2": "-",
+      "Step3": "-",
+      "Step4": "-"
+    },
+    {
+      "Metric": "Precision@3",
+      "Baseline": "0.087",
+      "Step1": "0.547",
+      "Step2": "0.387",
+      "Step3": "0.387",
+      "Step4": "-"
+    },
+    {
+      "Metric": "LLM Accuracy",
+      "Baseline": "0.060",
+      "Step1": "-",
+      "Step2": "-",
+      "Step3": "-",
+      "Step4": "0.000"
+    }
+  ],
+  "notes": [
+    "ground_truth_docs was auto-generated from answer-content alignment because explicit labels were absent in current dataset file.",
+    "topic classifier used keyword rules over 6 topics.",
+    "step3 used query expansion + category filtering + hybrid + rerank with automatic config search."
+  ],
+  "runtime_seconds": 419.04,
+  "llm_accuracy_std": 0.0
+}

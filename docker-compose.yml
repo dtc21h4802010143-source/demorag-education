@@ -1,0 +1,22 @@
+services:
+  backend:
+    build: ./backend
+    container_name: educhat-backend
+    ports:
+      - "8000:8000"
+    env_file:
+      - ./backend/.env
+    volumes:
+      - ./backend/uploads:/app/uploads
+      - ./backend/chroma_data:/app/chroma_data
+      - ./backend/app.db:/app/app.db
+
+  frontend:
+    build: ./frontend
+    container_name: educhat-frontend
+    ports:
+      - "5173:5173"
+    environment:
+      - VITE_API_BASE=http://localhost:8000
+    depends_on:
+      - backend

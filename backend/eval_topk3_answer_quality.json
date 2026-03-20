@@ -1,0 +1,543 @@
+{
+  "n": 50,
+  "config": {
+    "llm_provider": "groq",
+    "openai_model": "gpt-4o-mini",
+    "groq_model": "llama-3.3-70b-versatile",
+    "rag_top_k": 3,
+    "rag_temperature": 0.2,
+    "rag_max_output_tokens": 500
+  },
+  "overall": {
+    "accuracy_mean": 0.06,
+    "accuracy_std": 0.23748684174075835,
+    "accuracy_ones": 3,
+    "completeness_mean": 1.72,
+    "completeness_std": 0.9173875952943772,
+    "completeness_4_5_ratio": 0.08,
+    "naturalness_mean": 4.1,
+    "naturalness_std": 0.3,
+    "latency_mean_ms": 3048.299358000222,
+    "latency_std_ms": 285.8626718813172,
+    "latency_min_ms": 2853.7068000005092,
+    "latency_max_ms": 4427.822500001639
+  },
+  "by_topic_accuracy": {
+    "Học phí": 0.2222222222222222,
+    "Khác": 0.0,
+    "Quy chế học vụ": 0.125,
+    "Thủ tục hành chính": 0.0,
+    "Tuyển sinh": 0.0,
+    "Chương trình đào tạo": 0.0
+  },
+  "topic_counts": {
+    "Học phí": 9,
+    "Khác": 8,
+    "Quy chế học vụ": 8,
+    "Thủ tục hành chính": 8,
+    "Tuyển sinh": 9,
+    "Chương trình đào tạo": 8
+  },
+  "rows": [
+    {
+      "id": "ICTU_Q496",
+      "topic": "Học phí",
+      "category": "hoc_phi",
+      "sim": 0.7379086390310315,
+      "accuracy": 1.0,
+      "completeness": 3,
+      "naturalness": 5,
+      "latency_ms": 4427.822500001639
+    },
+    {
+      "id": "ICTU_Q958",
+      "topic": "Khác",
+      "category": "cau_lac_bo",
+      "sim": 0.692025415688027,
+      "accuracy": 0.0,
+      "completeness": 4,
+      "naturalness": 5,
+      "latency_ms": 3536.948900000425
+    },
+    {
+      "id": "ICTU_Q114",
+      "topic": "Học phí",
+      "category": "hoc_phi_chinh_sach",
+      "sim": 0.8806214263044877,
+      "accuracy": 1.0,
+      "completeness": 5,
+      "naturalness": 5,
+      "latency_ms": 3496.471099999326
+    },
+    {
+      "id": "ICTU_Q622",
+      "topic": "Học phí",
+      "category": "hoc_phi",
+      "sim": 0.5498816489097917,
+      "accuracy": 0.0,
+      "completeness": 4,
+      "naturalness": 5,
+      "latency_ms": 3857.074100000318
+    },
+    {
+      "id": "ICTU_Q497",
+      "topic": "Quy chế học vụ",
+      "category": "quy_che_sinh_vien",
+      "sim": 0.7439055155970307,
+      "accuracy": 1.0,
+      "completeness": 4,
+      "naturalness": 5,
+      "latency_ms": 3286.5208000002895
+    },
+    {
+      "id": "ICTU_Q172",
+      "topic": "Thủ tục hành chính",
+      "category": "thu_tuc_hanh_chinh",
+      "sim": 0.22034407702794348,
+      "accuracy": 0.0,
+      "completeness": 2,
+      "naturalness": 4,
+      "latency_ms": 2969.383099996776
+    },
+    {
+      "id": "ICTU_Q035",
+      "topic": "Tuyển sinh",
+      "category": "tuyen_sinh",
+      "sim": 0.24385283952080963,
+      "accuracy": 0.0,
+      "completeness": 2,
+      "naturalness": 4,
+      "latency_ms": 2905.3560999964247
+    },
+    {
+      "id": "ICTU_Q709",
+      "topic": "Tuyển sinh",
+      "category": "tuyen_sinh",
+      "sim": 0.218178264242296,
+      "accuracy": 0.0,
+      "completeness": 2,
+      "naturalness": 4,
+      "latency_ms": 2938.4612000067136
+    },
+    {
+      "id": "ICTU_Q113",
+      "topic": "Học phí",
+      "category": "hoc_phi_chinh_sach",
+      "sim": 0.2683527360159715,
+      "accuracy": 0.0,
+      "completeness": 2,
+      "naturalness": 4,
+      "latency_ms": 2975.0004000015906
+    },
+    {
+      "id": "ICTU_Q836",
+      "topic": "Tuyển sinh",
+      "category": "tuyen_sinh_lien_thong",
+      "sim": 0.16544642370874135,
+      "accuracy": 0.0,
+      "completeness": 1,
+      "naturalness": 4,
+      "latency_ms": 2912.846499995794
+    },
+    {
+      "id": "ICTU_Q782",
+      "topic": "Chương trình đào tạo",
+      "category": "nghien_cuu_khoa_hoc",
+      "sim": 0.17339369448119982,
+      "accuracy": 0.0,
+      "completeness": 1,
+      "naturalness": 4,
+      "latency_ms": 2935.8532999976887
+    },
+    {
+      "id": "ICTU_Q049",
+      "topic": "Quy chế học vụ",
+      "category": "quy_che_dao_tao",
+      "sim": 0.1574684481125248,
+      "accuracy": 0.0,
+      "completeness": 1,
+      "naturalness": 4,
+      "latency_ms": 3113.670499995351
+    },
+    {
+      "id": "ICTU_Q706",
+      "topic": "Học phí",
+      "category": "hoc_phi",
+      "sim": 0.2169812262347249,
+      "accuracy": 0.0,
+      "completeness": 2,
+      "naturalness": 4,
+      "latency_ms": 3136.598299999605
+    },
+    {
+      "id": "ICTU_Q358",
+      "topic": "Thủ tục hành chính",
+      "category": "y_te",
+      "sim": 0.20445243960350443,
+      "accuracy": 0.0,
+      "completeness": 1,
+      "naturalness": 4,
+      "latency_ms": 3565.3511000055005
+    },
+    {
+      "id": "ICTU_Q413",
+      "topic": "Quy chế học vụ",
+      "category": "quy_che_sinh_vien",
+      "sim": 0.19256796888074304,
+      "accuracy": 0.0,
+      "completeness": 1,
+      "naturalness": 4,
+      "latency_ms": 2950.7221000021673
+    },
+    {
+      "id": "ICTU_Q012",
+      "topic": "Khác",
+      "category": "thong_tin_chung",
+      "sim": 0.20285646190804868,
+      "accuracy": 0.0,
+      "completeness": 1,
+      "naturalness": 4,
+      "latency_ms": 2904.1709000011906
+    },
+    {
+      "id": "ICTU_Q504",
+      "topic": "Thủ tục hành chính",
+      "category": "thu_tuc_hanh_chinh",
+      "sim": 0.2039958746840661,
+      "accuracy": 0.0,
+      "completeness": 1,
+      "naturalness": 4,
+      "latency_ms": 2903.7421999964863
+    },
+    {
+      "id": "ICTU_Q038",
+      "topic": "Tuyển sinh",
+      "category": "tuyen_sinh",
+      "sim": 0.18964119729526124,
+      "accuracy": 0.0,
+      "completeness": 1,
+      "naturalness": 4,
+      "latency_ms": 2908.6260000040056
+    },
+    {
+      "id": "ICTU_Q329",
+      "topic": "Quy chế học vụ",
+      "category": "quy_che_dao_tao",
+      "sim": 0.25887890911866374,
+      "accuracy": 0.0,
+      "completeness": 2,
+      "naturalness": 4,
+      "latency_ms": 2963.4396999972523
+    },
+    {
+      "id": "ICTU_Q607",
+      "topic": "Quy chế học vụ",
+      "category": "danh_gia_ren_luyen",
+      "sim": 0.24207454443488832,
+      "accuracy": 0.0,
+      "completeness": 2,
+      "naturalness": 4,
+      "latency_ms": 2886.914599999727
+    },
+    {
+      "id": "ICTU_Q489",
+      "topic": "Chương trình đào tạo",
+      "category": "thuc_tap",
+      "sim": 0.18009467754639144,
+      "accuracy": 0.0,
+      "completeness": 1,
+      "naturalness": 4,
+      "latency_ms": 2865.018800002872
+    },
+    {
+      "id": "ICTU_Q889",
+      "topic": "Khác",
+      "category": "cau_lac_bo",
+      "sim": 0.2023245084101678,
+      "accuracy": 0.0,
+      "completeness": 1,
+      "naturalness": 4,
+      "latency_ms": 2859.8989000020083
+    },
+    {
+      "id": "ICTU_Q850",
+      "topic": "Chương trình đào tạo",
+      "category": "hoc_ky_phu",
+      "sim": 0.07540131594418178,
+      "accuracy": 0.0,
+      "completeness": 1,
+      "naturalness": 4,
+      "latency_ms": 2956.8390999993426
+    },
+    {
+      "id": "ICTU_Q831",
+      "topic": "Quy chế học vụ",
+      "category": "chung_chi",
+      "sim": 0.12467870078295165,
+      "accuracy": 0.0,
+      "completeness": 1,
+      "naturalness": 4,
+      "latency_ms": 2863.8406000027317
+    },
+    {
+      "id": "ICTU_Q446",
+      "topic": "Chương trình đào tạo",
+      "category": "nghien_cuu_khoa_hoc",
+      "sim": 0.24139568740057898,
+      "accuracy": 0.0,
+      "completeness": 2,
+      "naturalness": 4,
+      "latency_ms": 2865.9075000032317
+    },
+    {
+      "id": "ICTU_Q034",
+      "topic": "Tuyển sinh",
+      "category": "tuyen_sinh",
+      "sim": 0.2803501854791279,
+      "accuracy": 0.0,
+      "completeness": 2,
+      "naturalness": 4,
+      "latency_ms": 2948.487200003001
+    },
+    {
+      "id": "ICTU_Q154",
+      "topic": "Chương trình đào tạo",
+      "category": "chuong_trinh_dao_tao",
+      "sim": 0.2227929015042847,
+      "accuracy": 0.0,
+      "completeness": 2,
+      "naturalness": 4,
+      "latency_ms": 2875.6649999995716
+    },
+    {
+      "id": "ICTU_Q988",
+      "topic": "Khác",
+      "category": "cau_lac_bo",
+      "sim": 0.14777299775834304,
+      "accuracy": 0.0,
+      "completeness": 1,
+      "naturalness": 4,
+      "latency_ms": 2893.0897999962326
+    },
+    {
+      "id": "ICTU_Q239",
+      "topic": "Quy chế học vụ",
+      "category": "quy_che_dao_tao",
+      "sim": 0.17059324768926218,
+      "accuracy": 0.0,
+      "completeness": 1,
+      "naturalness": 4,
+      "latency_ms": 2935.331099994073
+    },
+    {
+      "id": "ICTU_Q433",
+      "topic": "Học phí",
+      "category": "hoc_phi",
+      "sim": 0.26747469678717756,
+      "accuracy": 0.0,
+      "completeness": 2,
+      "naturalness": 4,
+      "latency_ms": 2930.408300002455
+    },
+    {
+      "id": "ICTU_Q569",
+      "topic": "Thủ tục hành chính",
+      "category": "y_te",
+      "sim": 0.05290817836007644,
+      "accuracy": 0.0,
+      "completeness": 1,
+      "naturalness": 4,
+      "latency_ms": 2906.297999994422
+    },
+    {
+      "id": "ICTU_Q938",
+      "topic": "Khác",
+      "category": "cau_lac_bo",
+      "sim": 0.24498820006030864,
+      "accuracy": 0.0,
+      "completeness": 2,
+      "naturalness": 4,
+      "latency_ms": 2899.971300001198
+    },
+    {
+      "id": "ICTU_Q241",
+      "topic": "Quy chế học vụ",
+      "category": "quy_che_dao_tao",
+      "sim": 0.16064897599816177,
+      "accuracy": 0.0,
+      "completeness": 1,
+      "naturalness": 4,
+      "latency_ms": 3016.483400002471
+    },
+    {
+      "id": "ICTU_Q811",
+      "topic": "Học phí",
+      "category": "hoc_phi",
+      "sim": 0.22570098144043163,
+      "accuracy": 0.0,
+      "completeness": 2,
+      "naturalness": 4,
+      "latency_ms": 2853.7068000005092
+    },
+    {
+      "id": "ICTU_Q469",
+      "topic": "Chương trình đào tạo",
+      "category": "do_an_tot_nghiep",
+      "sim": 0.2290607871924223,
+      "accuracy": 0.0,
+      "completeness": 2,
+      "naturalness": 4,
+      "latency_ms": 2952.319100004388
+    },
+    {
+      "id": "ICTU_Q234",
+      "topic": "Tuyển sinh",
+      "category": "tuyen_sinh_lien_thong",
+      "sim": 0.15437037036811455,
+      "accuracy": 0.0,
+      "completeness": 1,
+      "naturalness": 4,
+      "latency_ms": 2895.1091000053566
+    },
+    {
+      "id": "ICTU_Q792",
+      "topic": "Khác",
+      "category": "thong_tin_chung",
+      "sim": 0.207979113178132,
+      "accuracy": 0.0,
+      "completeness": 1,
+      "naturalness": 4,
+      "latency_ms": 2898.4491000010166
+    },
+    {
+      "id": "ICTU_Q645",
+      "topic": "Khác",
+      "category": "thong_tin_chung",
+      "sim": 0.23538345364313962,
+      "accuracy": 0.0,
+      "completeness": 2,
+      "naturalness": 4,
+      "latency_ms": 3239.8256000014953
+    },
+    {
+      "id": "ICTU_Q110",
+      "topic": "Khác",
+      "category": "hoat_dong_ngoai_khoa",
+      "sim": 0.32043888174662555,
+      "accuracy": 0.0,
+      "completeness": 2,
+      "naturalness": 4,
+      "latency_ms": 3002.7007999960915
+    },
+    {
+      "id": "ICTU_Q263",
+      "topic": "Học phí",
+      "category": "hoc_phi",
+      "sim": 0.15469555853644743,
+      "accuracy": 0.0,
+      "completeness": 1,
+      "naturalness": 4,
+      "latency_ms": 2963.386499999615
+    },
+    {
+      "id": "ICTU_Q024",
+      "topic": "Tuyển sinh",
+      "category": "tuyen_sinh",
+      "sim": 0.2627866561767944,
+      "accuracy": 0.0,
+      "completeness": 2,
+      "naturalness": 4,
+      "latency_ms": 2944.5718999995734
+    },
+    {
+      "id": "ICTU_Q268",
+      "topic": "Tuyển sinh",
+      "category": "tuyen_sinh",
+      "sim": 0.2780376270898174,
+      "accuracy": 0.0,
+      "completeness": 2,
+      "naturalness": 4,
+      "latency_ms": 2906.972999997379
+    },
+    {
+      "id": "ICTU_Q117",
+      "topic": "Học phí",
+      "category": "hoc_phi_chinh_sach",
+      "sim": 0.38145345059293223,
+      "accuracy": 0.0,
+      "completeness": 2,
+      "naturalness": 4,
+      "latency_ms": 3194.4073000049684
+    },
+    {
+      "id": "ICTU_Q171",
+      "topic": "Thủ tục hành chính",
+      "category": "thu_tuc_hanh_chinh",
+      "sim": 0.21778187000055022,
+      "accuracy": 0.0,
+      "completeness": 2,
+      "naturalness": 4,
+      "latency_ms": 3290.4841999989003
+    },
+    {
+      "id": "ICTU_Q741",
+      "topic": "Chương trình đào tạo",
+      "category": "thuc_tap",
+      "sim": 0.11160969453287158,
+      "accuracy": 0.0,
+      "completeness": 1,
+      "naturalness": 4,
+      "latency_ms": 2981.1977999997907
+    },
+    {
+      "id": "ICTU_Q527",
+      "topic": "Thủ tục hành chính",
+      "category": "y_te",
+      "sim": 0.13616943493413683,
+      "accuracy": 0.0,
+      "completeness": 1,
+      "naturalness": 4,
+      "latency_ms": 2951.009399999748
+    },
+    {
+      "id": "ICTU_Q506",
+      "topic": "Thủ tục hành chính",
+      "category": "y_te",
+      "sim": 0.1818620254995097,
+      "accuracy": 0.0,
+      "completeness": 1,
+      "naturalness": 4,
+      "latency_ms": 3075.4683000050136
+    },
+    {
+      "id": "ICTU_Q468",
+      "topic": "Chương trình đào tạo",
+      "category": "thuc_tap",
+      "sim": 0.19990775653939505,
+      "accuracy": 0.0,
+      "completeness": 1,
+      "naturalness": 4,
+      "latency_ms": 2935.044599995308
+    },
+    {
+      "id": "ICTU_Q174",
+      "topic": "Thủ tục hành chính",
+      "category": "thu_tuc_hanh_chinh",
+      "sim": 0.1729972079037416,
+      "accuracy": 0.0,
+      "completeness": 1,
+      "naturalness": 4,
+      "latency_ms": 3021.9814000010956
+    },
+    {
+      "id": "ICTU_Q237",
+      "topic": "Tuyển sinh",
+      "category": "tuyen_sinh_tu_xa",
+      "sim": 0.31509743194417267,
+      "accuracy": 0.0,
+      "completeness": 2,
+      "naturalness": 4,
+      "latency_ms": 2916.120599998976
+    }
+  ]
+}

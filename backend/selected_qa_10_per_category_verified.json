@@ -1,0 +1,3602 @@
+{
+  "generated_at": "2026-03-20T09:45:22.802764",
+  "selection_rule": "Strict: TF-IDF self-match == true AND answer evidence found in documents; then select first 10 by ID per category.",
+  "category_summary": {
+    "cau_lac_bo": {
+      "selected": 10,
+      "strict_pool": 117
+    },
+    "chinh_sach_xa_hoi": {
+      "selected": 10,
+      "strict_pool": 28
+    },
+    "chung_chi": {
+      "selected": 10,
+      "strict_pool": 28
+    },
+    "chuong_trinh_dao_tao": {
+      "selected": 8,
+      "strict_pool": 8
+    },
+    "co_so_vat_chat": {
+      "selected": 6,
+      "strict_pool": 6
+    },
+    "danh_gia_ren_luyen": {
+      "selected": 10,
+      "strict_pool": 34
+    },
+    "dich_vu_ho_tro": {
+      "selected": 10,
+      "strict_pool": 13
+    },
+    "diem_so": {
+      "selected": 10,
+      "strict_pool": 29
+    },
+    "do_an_tot_nghiep": {
+      "selected": 10,
+      "strict_pool": 25
+    },
+    "hoat_dong_ngoai_khoa": {
+      "selected": 10,
+      "strict_pool": 10
+    },
+    "hoc_ky_phu": {
+      "selected": 10,
+      "strict_pool": 24
+    },
+    "hoc_phi": {
+      "selected": 10,
+      "strict_pool": 45
+    },
+    "hoc_phi_chinh_sach": {
+      "selected": 9,
+      "strict_pool": 9
+    },
+    "hoi_dong_tot_nghiep": {
+      "selected": 2,
+      "strict_pool": 2
+    },
+    "khen_thuong_ky_luat": {
+      "selected": 10,
+      "strict_pool": 41
+    },
+    "ky_tuc_xa": {
+      "selected": 10,
+      "strict_pool": 32
+    },
+    "nghien_cuu_khoa_hoc": {
+      "selected": 10,
+      "strict_pool": 28
+    },
+    "quy_che_dao_tao": {
+      "selected": 10,
+      "strict_pool": 72
+    },
+    "quy_che_sinh_vien": {
+      "selected": 10,
+      "strict_pool": 34
+    },
+    "sinh_vien_quoc_te": {
+      "selected": 2,
+      "strict_pool": 2
+    },
+    "the_sinh_vien": {
+      "selected": 9,
+      "strict_pool": 9
+    },
+    "thi_cu": {
+      "selected": 10,
+      "strict_pool": 27
+    },
+    "thong_tin_chung": {
+      "selected": 10,
+      "strict_pool": 47
+    },
+    "thu_tuc_hanh_chinh": {
+      "selected": 10,
+      "strict_pool": 43
+    },
+    "thuc_tap": {
+      "selected": 10,
+      "strict_pool": 27
+    },
+    "tuyen_sinh": {
+      "selected": 10,
+      "strict_pool": 47
+    },
+    "tuyen_sinh_lien_thong": {
+      "selected": 10,
+      "strict_pool": 14
+    },
+    "tuyen_sinh_tu_xa": {
+      "selected": 8,
+      "strict_pool": 8
+    },
+    "van_bang": {
+      "selected": 10,
+      "strict_pool": 26
+    },
+    "viec_lam": {
+      "selected": 10,
+      "strict_pool": 29
+    },
+    "y_te": {
+      "selected": 10,
+      "strict_pool": 31
+    }
+  },
+  "selected_qa": {
+    "cau_lac_bo": [
+      {
+        "id": "ICTU_Q1000",
+        "category": "cau_lac_bo",
+        "question": "Sinh viên muốn tham gia một CLB nhưng không biết liên hệ với ai thì làm thế nào?",
+        "answer": "Hãy đến trực tiếp Phòng Đoàn trường - Hội sinh viên (Phòng 215, tầng 2 Nhà C1) để được hướng dẫn và kết nối với CLB phù hợp.",
+        "source": "Sổ tay sinh viên 2025-2026",
+        "validation": {
+          "tfidf_self_match": true,
+          "tfidf_score": 1.0,
+          "doc_evidence": true
+        }
+      },
+      {
+        "id": "ICTU_Q882",
+        "category": "cau_lac_bo",
+        "question": "ICTU có những câu lạc bộ (CLB) nào dành cho sinh viên?",
+        "answer": "Rất nhiều CLB thuộc các lĩnh vực: học thuật (CLB Lập trình, CLB Tiếng Anh, CLB Kinh tế), nghệ thuật (CLB Nhảy, CLB Nhạc, CLB Nhiếp ảnh), thể thao (CLB Bóng đá, Bóng chuyền, Võ thuật), kỹ năng (CLB Kỹ năng mềm, CLB Tình nguyện).",
+        "source": "Sổ tay sinh viên, Đoàn Thanh niên - Hội Sinh viên",
+        "validation": {
+          "tfidf_self_match": true,
+          "tfidf_score": 1.0,
+          "doc_evidence": true
+        }
+      },
+      {
+        "id": "ICTU_Q883",
+        "category": "cau_lac_bo",
+        "question": "Làm thế nào để tham gia một câu lạc bộ tại ICTU?",
+        "answer": "Sinh viên có thể liên hệ trực tiếp với Ban Chủ nhiệm của câu lạc bộ đó để được hướng dẫn đăng ký. Thông tin liên hệ thường được đăng tải trên fanpage của Đoàn trường - Hội sinh viên hoặc các CLB.",
+        "source": "Sổ tay sinh viên, Đoàn Thanh niên - Hội Sinh viên",
+        "validation": {
+          "tfidf_self_match": true,
+          "tfidf_score": 1.0,
+          "doc_evidence": true
+        }
+      },
+      {
+        "id": "ICTU_Q884",
+        "category": "cau_lac_bo",
+        "question": "Muốn thành lập một câu lạc bộ mới, sinh viên cần làm gì?",
+        "answer": "Cần tập hợp ít nhất 10 thành viên, xây dựng điều lệ, kế hoạch hoạt động và gửi đề xuất lên Đoàn Thanh niên - Hội Sinh viên trường để được xem xét và phê duyệt.",
+        "source": "Điều 11, Quyết định 113/QĐ-ĐHCNTT&TT",
+        "validation": {
+          "tfidf_self_match": true,
+          "tfidf_score": 1.0,
+          "doc_evidence": true
+        }
+      },
+      {
+        "id": "ICTU_Q885",
+        "category": "cau_lac_bo",
+        "question": "Tham gia câu lạc bộ có được cộng điểm rèn luyện không?",
+        "answer": "Có, thành viên Ban chủ nhiệm CLB được cộng từ 5-15 điểm HĐNK mỗi kỳ. Thành viên tham gia các hoạt động của CLB cũng được cộng điểm tùy theo từng hoạt động cụ thể.",
+        "source": "Điều 5, Quyết định 113/QĐ-ĐHCNTT&TT",
+        "validation": {
+          "tfidf_self_match": true,
+          "tfidf_score": 1.0,
+          "doc_evidence": true
+        }
+      },
+      {
+        "id": "ICTU_Q886",
+        "category": "cau_lac_bo",
+        "question": "Câu lạc bộ Lập trình (ICTU Coding Club) thường tổ chức những hoạt động gì?",
+        "answer": "Tổ chức các buổi học thuật, workshop về ngôn ngữ lập trình, thuật toán; tổ chức các cuộc thi lập trình nội bộ; tham gia các kỳ thi lập trình sinh viên cấp trường, cấp quốc gia.",
+        "source": "Thông tin từ Đoàn trường",
+        "validation": {
+          "tfidf_self_match": true,
+          "tfidf_score": 1.0,
+          "doc_evidence": true
+        }
+      },
+      {
+        "id": "ICTU_Q887",
+        "category": "cau_lac_bo",
+        "question": "Làm thế nào để liên hệ với Ban Chủ nhiệm CLB Lập trình?",
+        "answer": "Sinh viên có thể tìm kiếm fanpage 'ICTU Coding Club' trên Facebook, hoặc liên hệ qua Đoàn trường - Hội sinh viên để được kết nối.",
+        "source": "Thông tin từ Đoàn trường",
+        "validation": {
+          "tfidf_self_match": true,
+          "tfidf_score": 1.0,
+          "doc_evidence": true
+        }
+      },
+      {
+        "id": "ICTU_Q888",
+        "category": "cau_lac_bo",
+        "question": "Câu lạc bộ Tiếng Anh (ICTU English Club) có những hoạt động gì nổi bật?",
+        "answer": "Tổ chức các câu lạc bộ tiếng Anh hàng tuần (English Speaking Club), các buổi luyện thi IELTS, TOEIC, các cuộc thi hùng biện tiếng Anh, các buổi giao lưu với sinh viên quốc tế.",
+        "source": "Thông tin từ Đoàn trường",
+        "validation": {
+          "tfidf_self_match": true,
+          "tfidf_score": 1.0,
+          "doc_evidence": true
+        }
+      },
+      {
+        "id": "ICTU_Q889",
+        "category": "cau_lac_bo",
+        "question": "Câu lạc bộ Tình nguyện (ICTU Volunteer Club) thường tham gia các hoạt động nào?",
+        "answer": "Tham gia các chiến dịch Mùa hè xanh, Tiếp sức mùa thi, các hoạt động thiện nguyện tại các trường học vùng cao, mái ấm tình thương, các hoạt động bảo vệ môi trường.",
+        "source": "Thông tin từ Đoàn trường",
+        "validation": {
+          "tfidf_self_match": true,
+          "tfidf_score": 1.0,
+          "doc_evidence": true
+        }
+      },
+      {
+        "id": "ICTU_Q890",
+        "category": "cau_lac_bo",
+        "question": "Câu lạc bộ Nghệ thuật (ICTU Arts Club) có những nhóm nhỏ nào?",
+        "answer": "Thường có các nhóm: Nhảy (Cover Dance), Nhạc (Guitar, Vocal), Nhiếp ảnh, Mỹ thuật (Design).",
+        "source": "Thông tin từ Đoàn trường",
+        "validation": {
+          "tfidf_self_match": true,
+          "tfidf_score": 1.0,
+          "doc_evidence": true
+        }
+      }
+    ],
+    "chinh_sach_xa_hoi": [
+      {
+        "id": "ICTU_Q188",
+        "category": "chinh_sach_xa_hoi",
+        "question": "Sinh viên nữ trong thời gian mang thai có chế độ gì đặc biệt không?",
+        "answer": "Được nghỉ học theo quy định về thai sản, bảo lưu kết quả học tập, và có thể được xem xét hỗ trợ theo quy định.",
+        "source": "Quy chế đào tạo và chính sách xã hội",
+        "validation": {
+          "tfidf_self_match": true,
+          "tfidf_score": 1.0,
+          "doc_evidence": true
+        }
+      },
+      {
+        "id": "ICTU_Q189",
+        "category": "chinh_sach_xa_hoi",
+        "question": "Sinh viên là người dân tộc thiểu số có được hưởng chính sách ưu tiên gì?",
+        "answer": "Được ưu tiên trong tuyển sinh (cộng điểm khu vực, đối tượng), và có thể được miễn giảm học phí theo Nghị định 81/2021 nếu thuộc hộ nghèo, cận nghèo hoặc ở vùng đặc biệt khó khăn.",
+        "source": "Nghị định 81/2021, Quy chế tuyển sinh",
+        "validation": {
+          "tfidf_self_match": true,
+          "tfidf_score": 1.0,
+          "doc_evidence": true
+        }
+      },
+      {
+        "id": "ICTU_Q280",
+        "category": "chinh_sach_xa_hoi",
+        "question": "Sinh viên mồ côi cả cha lẫn mẹ có được hưởng chính sách hỗ trợ chi phí học tập không?",
+        "answer": "Có, theo Điều 18 Nghị định 81/2021, đối tượng này được hỗ trợ chi phí học tập 150.000 đồng/tháng.",
+        "source": "Điều 18, Nghị định 81/2021/NĐ-CP",
+        "validation": {
+          "tfidf_self_match": true,
+          "tfidf_score": 1.0,
+          "doc_evidence": true
+        }
+      },
+      {
+        "id": "ICTU_Q311",
+        "category": "chinh_sach_xa_hoi",
+        "question": "Sinh viên thuộc hộ cận nghèo có được giảm học phí không? Mức giảm bao nhiêu?",
+        "answer": "Có, được giảm 50% học phí theo quy định tại điểm b khoản 2 Điều 16 Nghị định 81/2021.",
+        "source": "Điều 16, Nghị định 81/2021/NĐ-CP",
+        "validation": {
+          "tfidf_self_match": true,
+          "tfidf_score": 1.0,
+          "doc_evidence": true
+        }
+      },
+      {
+        "id": "ICTU_Q336",
+        "category": "chinh_sach_xa_hoi",
+        "question": "Sinh viên là con thương binh nặng có được miễn học phí không?",
+        "answer": "Có, đối tượng là con của người có công với cách mạng (bao gồm thương binh nặng) được miễn học phí theo quy định.",
+        "source": "Điều 15, Nghị định 81/2021/NĐ-CP",
+        "validation": {
+          "tfidf_self_match": true,
+          "tfidf_score": 1.0,
+          "doc_evidence": true
+        }
+      },
+      {
+        "id": "ICTU_Q359",
+        "category": "chinh_sach_xa_hoi",
+        "question": "Sinh viên có thể vay vốn ngân hàng chính sách xã hội để học tập không?",
+        "answer": "Có, nếu thuộc hộ nghèo, hộ cận nghèo hoặc có hoàn cảnh khó khăn, sinh viên có thể làm hồ sơ vay vốn tại Ngân hàng Chính sách xã hội địa phương với xác nhận của nhà trường.",
+        "source": "Sổ tay sinh viên",
+        "validation": {
+          "tfidf_self_match": true,
+          "tfidf_score": 1.0,
+          "doc_evidence": true
+        }
+      },
+      {
+        "id": "ICTU_Q381",
+        "category": "chinh_sach_xa_hoi",
+        "question": "Sinh viên thuộc hộ nghèo có thể xin ở ký túc xá miễn phí không?",
+        "answer": "Có thể được xem xét giảm hoặc hỗ trợ kinh phí ở KTX tùy theo quy định của trường và nguồn quỹ hỗ trợ.",
+        "source": "Sổ tay sinh viên",
+        "validation": {
+          "tfidf_self_match": true,
+          "tfidf_score": 1.0,
+          "doc_evidence": true
+        }
+      },
+      {
+        "id": "ICTU_Q402",
+        "category": "chinh_sach_xa_hoi",
+        "question": "Sinh viên nữ có thai được nghỉ học theo chế độ thai sản bao lâu?",
+        "answer": "Theo quy định, được nghỉ tối đa 6 tháng và được bảo lưu kết quả học tập.",
+        "source": "Quy chế đào tạo",
+        "validation": {
+          "tfidf_self_match": true,
+          "tfidf_score": 1.0,
+          "doc_evidence": true
+        }
+      },
+      {
+        "id": "ICTU_Q423",
+        "category": "chinh_sach_xa_hoi",
+        "question": "Sinh viên khuyết tật có được hỗ trợ về chỗ ở KTX không?",
+        "answer": "Có thể được ưu tiên bố trí chỗ ở phù hợp và hỗ trợ các điều kiện sinh hoạt.",
+        "source": "Sổ tay sinh viên",
+        "validation": {
+          "tfidf_self_match": true,
+          "tfidf_score": 1.0,
+          "doc_evidence": true
+        }
+      },
+      {
+        "id": "ICTU_Q444",
+        "category": "chinh_sach_xa_hoi",
+        "question": "Sinh viên có thể xin hỗ trợ chi phí đi lại, ăn ở khi tham gia các kỳ thi học sinh giỏi cấp quốc gia không?",
+        "answer": "Có, nhà trường có chính sách hỗ trợ cho sinh viên tham gia các hoạt động thi đấu, học thuật cấp cao hơn.",
+        "source": "Sổ tay sinh viên",
+        "validation": {
+          "tfidf_self_match": true,
+          "tfidf_score": 1.0,
+          "doc_evidence": true
+        }
+      }
+    ],
+    "chung_chi": [
+      {
+        "id": "ICTU_Q215",
+        "category": "chung_chi",
+        "question": "Sinh viên có chứng chỉ ngoại ngữ quốc tế (IELTS, TOEFL) có được miễn học phần tiếng Anh không?",
+        "answer": "Có thể, nếu chứng chỉ còn thời hạn và đạt mức điểm theo quy định của trường, sinh viên có thể làm đơn xin miễn học và được công nhận điểm cho học phần tương đương.",
+        "source": "Quy chế đào tạo",
+        "validation": {
+          "tfidf_self_match": true,
+          "tfidf_score": 1.0,
+          "doc_evidence": true
+        }
+      },
+      {
+        "id": "ICTU_Q216",
+        "category": "chung_chi",
+        "question": "Sinh viên có chứng chỉ tin học quốc tế (MOS, IC3) có được miễn học phần tin học cơ sở không?",
+        "answer": "Tùy theo quy định cụ thể của từng chương trình đào tạo, sinh viên có thể được xét miễn học và công nhận tín chỉ cho các học phần tương ứng.",
+        "source": "Quy chế đào tạo",
+        "validation": {
+          "tfidf_self_match": true,
+          "tfidf_score": 1.0,
+          "doc_evidence": true
+        }
+      },
+      {
+        "id": "ICTU_Q292",
+        "category": "chung_chi",
+        "question": "Sinh viên tốt nghiệp cần có chứng chỉ ngoại ngữ và tin học đạt chuẩn đầu ra nào?",
+        "answer": "Tùy theo chương trình đào tạo cụ thể, sinh viên cần đạt chuẩn đầu ra ngoại ngữ và tin học theo quy định của trường (ví dụ: IELTS 5.0, TOEIC 450, chứng chỉ tin học ứng dụng cơ bản...).",
+        "source": "Quy định chuẩn đầu ra, Sổ tay sinh viên",
+        "validation": {
+          "tfidf_self_match": true,
+          "tfidf_score": 1.0,
+          "doc_evidence": true
+        }
+      },
+      {
+        "id": "ICTU_Q320",
+        "category": "chung_chi",
+        "question": "Sinh viên học ngành Ngôn ngữ Anh có cần chứng chỉ ngoại ngữ quốc tế để tốt nghiệp không?",
+        "answer": "Thường yêu cầu chuẩn đầu ra cao hơn, ví dụ IELTS 6.0 hoặc tương đương. Cần xem quy định cụ thể của khoa.",
+        "source": "Quy định chuẩn đầu ra, Sổ tay sinh viên",
+        "validation": {
+          "tfidf_self_match": true,
+          "tfidf_score": 1.0,
+          "doc_evidence": true
+        }
+      },
+      {
+        "id": "ICTU_Q345",
+        "category": "chung_chi",
+        "question": "Sinh viên ngành CNTT có thể thi lấy chứng chỉ quốc tế nào ngay tại trường?",
+        "answer": "Trung tâm Tin học, Ngoại ngữ có thể liên kết tổ chức thi các chứng chỉ như MOS, IC3, Cisco, v.v.",
+        "source": "Sổ tay sinh viên",
+        "validation": {
+          "tfidf_self_match": true,
+          "tfidf_score": 1.0,
+          "doc_evidence": true
+        }
+      },
+      {
+        "id": "ICTU_Q368",
+        "category": "chung_chi",
+        "question": "Sinh viên tốt nghiệp có được cấp chứng chỉ ngoại ngữ, tin học của trường không?",
+        "answer": "Nếu sinh viên tham gia các khóa học tại Trung tâm và thi đạt, sẽ được cấp chứng chỉ. Còn chuẩn đầu ra là yêu cầu, không phải chứng chỉ riêng.",
+        "source": "Sổ tay sinh viên",
+        "validation": {
+          "tfidf_self_match": true,
+          "tfidf_score": 1.0,
+          "doc_evidence": true
+        }
+      },
+      {
+        "id": "ICTU_Q390",
+        "category": "chung_chi",
+        "question": "Sinh viên có thể quy đổi chứng chỉ MOS sang điểm học phần Tin học văn phòng không?",
+        "answer": "Có thể, nếu có quy định của trường và chứng chỉ còn hiệu lực.",
+        "source": "Quy chế đào tạo",
+        "validation": {
+          "tfidf_self_match": true,
+          "tfidf_score": 1.0,
+          "doc_evidence": true
+        }
+      },
+      {
+        "id": "ICTU_Q411",
+        "category": "chung_chi",
+        "question": "Chứng chỉ giáo dục quốc phòng có thời hạn bao lâu?",
+        "answer": "Chứng chỉ GDQP được cấp sau khi hoàn thành khóa học và có giá trị vĩnh viễn, không có thời hạn.",
+        "source": "Quy chế đào tạo",
+        "validation": {
+          "tfidf_self_match": true,
+          "tfidf_score": 1.0,
+          "doc_evidence": true
+        }
+      },
+      {
+        "id": "ICTU_Q432",
+        "category": "chung_chi",
+        "question": "Sinh viên có thể học chứng chỉ nghiệp vụ sư phạm tại trường để làm giáo viên dạy nghề không?",
+        "answer": "Có thể, nếu trung tâm của trường có tổ chức các khóa bồi dưỡng nghiệp vụ sư phạm.",
+        "source": "Sổ tay sinh viên",
+        "validation": {
+          "tfidf_self_match": true,
+          "tfidf_score": 1.0,
+          "doc_evidence": true
+        }
+      },
+      {
+        "id": "ICTU_Q453",
+        "category": "chung_chi",
+        "question": "Sinh viên có thể học chứng chỉ quản lý dự án CNTT tại trường không?",
+        "answer": "Có thể, nếu trung tâm có tổ chức các khóa học liên quan.",
+        "source": "Sổ tay sinh viên",
+        "validation": {
+          "tfidf_self_match": true,
+          "tfidf_score": 1.0,
+          "doc_evidence": true
+        }
+      }
+    ],
+    "chuong_trinh_dao_tao": [
+      {
+        "id": "ICTU_Q148",
+        "category": "chuong_trinh_dao_tao",
+        "question": "Ngành Công nghệ thông tin tại ICTU có những chuyên ngành/chương trình nào?",
+        "answer": "Công nghệ thông tin, An toàn thông tin, Khoa học máy tính, Kỹ thuật phần mềm, Hệ thống thông tin, Mạng máy tính và truyền thông dữ liệu, Công nghệ thông tin trọng điểm, Công nghệ thông tin quốc tế, Công nghệ thông tin trong nông nghiệp.",
+        "source": "Thông tin tuyển sinh 2025",
+        "validation": {
+          "tfidf_self_match": true,
+          "tfidf_score": 1.0,
+          "doc_evidence": true
+        }
+      },
+      {
+        "id": "ICTU_Q149",
+        "category": "chuong_trinh_dao_tao",
+        "question": "Ngành Kỹ thuật phần mềm có chương trình liên kết quốc tế với trường nào?",
+        "answer": "Với Đại học Quốc gia Kyungpook, Hàn Quốc.",
+        "source": "Thông tin tuyển sinh 2025",
+        "validation": {
+          "tfidf_self_match": true,
+          "tfidf_score": 1.0,
+          "doc_evidence": true
+        }
+      },
+      {
+        "id": "ICTU_Q152",
+        "category": "chuong_trinh_dao_tao",
+        "question": "Ngành Công nghệ ô tô và giao thông thông minh có chỉ tiêu bao nhiêu?",
+        "answer": "150 chỉ tiêu.",
+        "source": "Thông tin tuyển sinh 2025",
+        "validation": {
+          "tfidf_self_match": true,
+          "tfidf_score": 1.0,
+          "doc_evidence": true
+        }
+      },
+      {
+        "id": "ICTU_Q153",
+        "category": "chuong_trinh_dao_tao",
+        "question": "Ngành An ninh mạng (An toàn thông tin) có chỉ tiêu là bao nhiêu?",
+        "answer": "70 chỉ tiêu.",
+        "source": "Thông tin tuyển sinh 2025",
+        "validation": {
+          "tfidf_self_match": true,
+          "tfidf_score": 1.0,
+          "doc_evidence": true
+        }
+      },
+      {
+        "id": "ICTU_Q154",
+        "category": "chuong_trinh_dao_tao",
+        "question": "Ngành Công nghệ tài chính thuộc khối ngành nào?",
+        "answer": "Khối ngành Kinh tế học, mã ngành 7310109.",
+        "source": "Thông tin tuyển sinh 2025",
+        "validation": {
+          "tfidf_self_match": true,
+          "tfidf_score": 1.0,
+          "doc_evidence": true
+        }
+      },
+      {
+        "id": "ICTU_Q269",
+        "category": "chuong_trinh_dao_tao",
+        "question": "Ngành Kỹ thuật y sinh có được đào tạo tại ICTU không?",
+        "answer": "Có, ngành này nằm trong khối ngành V và có trong danh sách đào tạo hệ vừa làm vừa học.",
+        "source": "Quyết định học phí 2025-2026",
+        "validation": {
+          "tfidf_self_match": true,
+          "tfidf_score": 1.0,
+          "doc_evidence": true
+        }
+      },
+      {
+        "id": "ICTU_Q270",
+        "category": "chuong_trinh_dao_tao",
+        "question": "Chương trình đào tạo 'Nghệ thuật số' thuộc khoa nào?",
+        "answer": "Thuộc Khoa Nghệ thuật và Truyền thông.",
+        "source": "Sổ tay sinh viên 2025-2026",
+        "validation": {
+          "tfidf_self_match": true,
+          "tfidf_score": 1.0,
+          "doc_evidence": true
+        }
+      },
+      {
+        "id": "ICTU_Q271",
+        "category": "chuong_trinh_dao_tao",
+        "question": "Ngành Quản lý logistics và chuỗi cung ứng có mã ngành là gì?",
+        "answer": "Mã 7340405, tên ngành Hệ thống thông tin quản lý, chuyên ngành Quản lý logistics và chuỗi cung ứng.",
+        "source": "Thông tin tuyển sinh 2025",
+        "validation": {
+          "tfidf_self_match": true,
+          "tfidf_score": 1.0,
+          "doc_evidence": true
+        }
+      }
+    ],
+    "co_so_vat_chat": [
+      {
+        "id": "ICTU_Q155",
+        "category": "co_so_vat_chat",
+        "question": "ICTU có ký túc xá cho sinh viên không? Khoảng bao nhiêu chỗ?",
+        "answer": "Có, với gần 200 phòng, khoảng 1800 chỗ ở.",
+        "source": "Sổ tay sinh viên 2025-2026",
+        "validation": {
+          "tfidf_self_match": true,
+          "tfidf_score": 1.0,
+          "doc_evidence": true
+        }
+      },
+      {
+        "id": "ICTU_Q156",
+        "category": "co_so_vat_chat",
+        "question": "Phòng học và phòng lab tại ICTU có được trang bị điều hòa không?",
+        "answer": "Có, hầu hết các phòng học và phòng thực hành đều được trang bị điều hòa.",
+        "source": "Sổ tay sinh viên 2025-2026",
+        "validation": {
+          "tfidf_self_match": true,
+          "tfidf_score": 1.0,
+          "doc_evidence": true
+        }
+      },
+      {
+        "id": "ICTU_Q157",
+        "category": "co_so_vat_chat",
+        "question": "ICTU có khu vực dành riêng cho sinh viên quốc tế ở ký túc xá không?",
+        "answer": "Có, có khu nội trú riêng dành cho lưu học sinh quốc tế.",
+        "source": "Sổ tay sinh viên 2025-2026",
+        "validation": {
+          "tfidf_self_match": true,
+          "tfidf_score": 1.0,
+          "doc_evidence": true
+        }
+      },
+      {
+        "id": "ICTU_Q158",
+        "category": "co_so_vat_chat",
+        "question": "Trường có thư viện không? Sinh viên có thể mượn sách ở đâu?",
+        "answer": "Có, trường có thư viện với nhiều đầu sách. Sinh viên có thể đến thư viện để đọc và mượn sách theo quy định.",
+        "source": "Sổ tay sinh viên 2025-2026",
+        "validation": {
+          "tfidf_self_match": true,
+          "tfidf_score": 1.0,
+          "doc_evidence": true
+        }
+      },
+      {
+        "id": "ICTU_Q159",
+        "category": "co_so_vat_chat",
+        "question": "Trường có các phòng thực hành máy tính không?",
+        "answer": "Có, nhiều phòng lab máy tính phục vụ cho việc học tập và thực hành của sinh viên các ngành CNTT, Kỹ thuật.",
+        "source": "Sổ tay sinh viên 2025-2026",
+        "validation": {
+          "tfidf_self_match": true,
+          "tfidf_score": 1.0,
+          "doc_evidence": true
+        }
+      },
+      {
+        "id": "ICTU_Q272",
+        "category": "co_so_vat_chat",
+        "question": "Sinh viên có thể sử dụng wifi miễn phí trong trường không?",
+        "answer": "Có, trường có hệ thống wifi phủ sóng tại khu vực giảng đường, thư viện và ký túc xá phục vụ nhu cầu học tập, nghiên cứu của sinh viên.",
+        "source": "Sổ tay sinh viên",
+        "validation": {
+          "tfidf_self_match": true,
+          "tfidf_score": 1.0,
+          "doc_evidence": true
+        }
+      }
+    ],
+    "danh_gia_ren_luyen": [
+      {
+        "id": "ICTU_Q083",
+        "category": "danh_gia_ren_luyen",
+        "question": "Điểm rèn luyện của sinh viên được đánh giá dựa trên những nội dung nào?",
+        "answer": "Ý thức tham gia học tập; ý thức chấp hành nội quy; ý thức tham gia các hoạt động chính trị-xã hội-văn hóa-thể thao; ý thức công dân trong quan hệ cộng đồng; ý thức và kết quả tham gia công tác lớp, đoàn thể.",
+        "source": "Điều 3, Quyết định 112/QĐ-ĐHCNTT&TT",
+        "validation": {
+          "tfidf_self_match": true,
+          "tfidf_score": 1.0,
+          "doc_evidence": true
+        }
+      },
+      {
+        "id": "ICTU_Q084",
+        "category": "danh_gia_ren_luyen",
+        "question": "Thang điểm rèn luyện là bao nhiêu?",
+        "answer": "Thang điểm 100.",
+        "source": "Điều 3, Quyết định 112/QĐ-ĐHCNTT&TT",
+        "validation": {
+          "tfidf_self_match": true,
+          "tfidf_score": 1.0,
+          "doc_evidence": true
+        }
+      },
+      {
+        "id": "ICTU_Q085",
+        "category": "danh_gia_ren_luyen",
+        "question": "Các mức phân loại kết quả rèn luyện?",
+        "answer": "Xuất sắc: 90-100; Tốt: 80-<90; Khá: 65-<80; Trung bình: 50-<65; Yếu: 35-<50; Kém: <35.",
+        "source": "Điều 14, Quyết định 112/QĐ-ĐHCNTT&TT",
+        "validation": {
+          "tfidf_self_match": true,
+          "tfidf_score": 1.0,
+          "doc_evidence": true
+        }
+      },
+      {
+        "id": "ICTU_Q086",
+        "category": "danh_gia_ren_luyen",
+        "question": "Sinh viên bị kỷ luật khiển trách thì điểm rèn luyện tối đa là gì?",
+        "answer": "Không được vượt quá loại khá.",
+        "source": "Điều 15, Quyết định 112/QĐ-ĐHCNTT&TT",
+        "validation": {
+          "tfidf_self_match": true,
+          "tfidf_score": 1.0,
+          "doc_evidence": true
+        }
+      },
+      {
+        "id": "ICTU_Q087",
+        "category": "danh_gia_ren_luyen",
+        "question": "Sinh viên bị kỷ luật cảnh cáo thì điểm rèn luyện tối đa là gì?",
+        "answer": "Không vượt quá loại trung bình.",
+        "source": "Điều 15, Quyết định 112/QĐ-ĐHCNTT&TT",
+        "validation": {
+          "tfidf_self_match": true,
+          "tfidf_score": 1.0,
+          "doc_evidence": true
+        }
+      },
+      {
+        "id": "ICTU_Q088",
+        "category": "danh_gia_ren_luyen",
+        "question": "Điểm rèn luyện học kỳ được tính như thế nào?",
+        "answer": "Là tổng điểm đạt được của 5 nội dung đánh giá theo quy định.",
+        "source": "Điều 19, Quyết định 112/QĐ-ĐHCNTT&TT",
+        "validation": {
+          "tfidf_self_match": true,
+          "tfidf_score": 1.0,
+          "doc_evidence": true
+        }
+      },
+      {
+        "id": "ICTU_Q089",
+        "category": "danh_gia_ren_luyen",
+        "question": "Điểm rèn luyện năm học tính ra sao?",
+        "answer": "Là trung bình cộng điểm rèn luyện của 2 học kỳ trong năm học đó.",
+        "source": "Điều 19, Quyết định 112/QĐ-ĐHCNTT&TT",
+        "validation": {
+          "tfidf_self_match": true,
+          "tfidf_score": 1.0,
+          "doc_evidence": true
+        }
+      },
+      {
+        "id": "ICTU_Q090",
+        "category": "danh_gia_ren_luyen",
+        "question": "Sinh viên bị xếp loại rèn luyện yếu, kém hai học kỳ liên tiếp thì xử lý thế nào?",
+        "answer": "Phải tạm ngừng học ít nhất một học kỳ. Nếu tái phạm lần thứ hai (yếu, kém 2 kỳ liên tiếp lần 2) thì buộc thôi học.",
+        "source": "Điều 20, Quyết định 112/QĐ-ĐHCNTT&TT",
+        "validation": {
+          "tfidf_self_match": true,
+          "tfidf_score": 1.0,
+          "doc_evidence": true
+        }
+      },
+      {
+        "id": "ICTU_Q091",
+        "category": "danh_gia_ren_luyen",
+        "question": "Sinh viên có quyền khiếu nại kết quả rèn luyện không?",
+        "answer": "Có. Gửi đơn khiếu nại đến Hội đồng nhà trường thông qua Phòng Công tác HSSV.",
+        "source": "Điều 21, Quyết định 112/QĐ-ĐHCNTT&TT",
+        "validation": {
+          "tfidf_self_match": true,
+          "tfidf_score": 1.0,
+          "doc_evidence": true
+        }
+      },
+      {
+        "id": "ICTU_Q243",
+        "category": "danh_gia_ren_luyen",
+        "question": "Kết quả rèn luyện được sử dụng vào những việc gì?",
+        "answer": "Xét học bổng, xét khen thưởng - kỷ luật, xét thôi học, xét lưu trú KTX, xét giải quyết việc làm thêm, xét miễn giảm chi phí dịch vụ, và là điều kiện xét tốt nghiệp.",
+        "source": "Điều 20, Quyết định 112/QĐ-ĐHCNTT&TT",
+        "validation": {
+          "tfidf_self_match": true,
+          "tfidf_score": 1.0,
+          "doc_evidence": true
+        }
+      }
+    ],
+    "dich_vu_ho_tro": [
+      {
+        "id": "ICTU_Q160",
+        "category": "dich_vu_ho_tro",
+        "question": "Sinh viên có thể tham gia nghiên cứu khoa học không? Có được cộng điểm gì không?",
+        "answer": "Có, thông qua các đề tài NCKH sinh viên cấp trường. Khi tham gia và đạt kết quả, sinh viên được cộng điểm rèn luyện và có cơ hội nhận khen thưởng.",
+        "source": "Sổ tay sinh viên 2025-2026, Điều 4 QĐ 112",
+        "validation": {
+          "tfidf_self_match": true,
+          "tfidf_score": 1.0,
+          "doc_evidence": true
+        }
+      },
+      {
+        "id": "ICTU_Q161",
+        "category": "dich_vu_ho_tro",
+        "question": "Điều kiện để sinh viên được tham gia chương trình thực tập ở nước ngoài?",
+        "answer": "Thường yêu cầu GPA cao, có chứng chỉ ngoại ngữ đạt yêu cầu, và được khoa chuyên môn giới thiệu.",
+        "source": "Sổ tay sinh viên 2025-2026",
+        "validation": {
+          "tfidf_self_match": true,
+          "tfidf_score": 1.0,
+          "doc_evidence": true
+        }
+      },
+      {
+        "id": "ICTU_Q162",
+        "category": "dich_vu_ho_tro",
+        "question": "Nhà trường có hỗ trợ sinh viên tìm kiếm việc làm sau khi tốt nghiệp không?",
+        "answer": "Có, thông qua Trung tâm Truyền thông, Tuyển sinh và Hỗ trợ sinh viên, các hoạt động kết nối doanh nghiệp, ngày hội việc làm.",
+        "source": "Sổ tay sinh viên 2025-2026",
+        "validation": {
+          "tfidf_self_match": true,
+          "tfidf_score": 1.0,
+          "doc_evidence": true
+        }
+      },
+      {
+        "id": "ICTU_Q163",
+        "category": "dich_vu_ho_tro",
+        "question": "Muốn xin giấy xác nhận sinh viên để vay vốn ngân hàng thì đến đâu?",
+        "answer": "Đến Phòng Công tác Học sinh, sinh viên (CT-HSSV) để làm thủ tục xin cấp giấy xác nhận.",
+        "source": "Sổ tay sinh viên 2025-2026",
+        "validation": {
+          "tfidf_self_match": true,
+          "tfidf_score": 1.0,
+          "doc_evidence": true
+        }
+      },
+      {
+        "id": "ICTU_Q164",
+        "category": "dich_vu_ho_tro",
+        "question": "Sinh viên có thể xin cấp bảng điểm tạm thời ở đâu?",
+        "answer": "Tại Phòng Đào tạo của trường.",
+        "source": "Sổ tay sinh viên 2025-2026",
+        "validation": {
+          "tfidf_self_match": true,
+          "tfidf_score": 1.0,
+          "doc_evidence": true
+        }
+      },
+      {
+        "id": "ICTU_Q165",
+        "category": "dich_vu_ho_tro",
+        "question": "Sinh viên muốn xin giấy chứng nhận tham gia bảo hiểm y tế thì liên hệ đâu?",
+        "answer": "Liên hệ Phòng Công tác Học sinh, sinh viên (CT-HSSV).",
+        "source": "Sổ tay sinh viên 2025-2026",
+        "validation": {
+          "tfidf_self_match": true,
+          "tfidf_score": 1.0,
+          "doc_evidence": true
+        }
+      },
+      {
+        "id": "ICTU_Q166",
+        "category": "dich_vu_ho_tro",
+        "question": "Nhà trường có trạm y tế riêng không? Ai phụ trách?",
+        "answer": "Có, Trạm Y tế tại trường do BS. Nguyễn Thị Song Loan làm Trưởng trạm.",
+        "source": "Sổ tay sinh viên 2025-2026, Phần I",
+        "validation": {
+          "tfidf_self_match": true,
+          "tfidf_score": 1.0,
+          "doc_evidence": true
+        }
+      },
+      {
+        "id": "ICTU_Q167",
+        "category": "dich_vu_ho_tro",
+        "question": "Sinh viên có thể tham gia các chương trình tư vấn tâm lý không?",
+        "answer": "Có, thông qua Phòng Công tác HSSV, nhà trường có các hoạt động tư vấn tâm lý cho sinh viên khi cần.",
+        "source": "Sổ tay sinh viên 2025-2026",
+        "validation": {
+          "tfidf_self_match": true,
+          "tfidf_score": 1.0,
+          "doc_evidence": true
+        }
+      },
+      {
+        "id": "ICTU_Q227",
+        "category": "dich_vu_ho_tro",
+        "question": "Sinh viên có thể in sao y các giấy tờ từ hồ sơ gốc tại trường không?",
+        "answer": "Có thể liên hệ Văn phòng khoa hoặc Phòng Hành chính - Tổ chức để được hướng dẫn về thủ tục chứng thực, sao y.",
+        "source": "Sổ tay sinh viên",
+        "validation": {
+          "tfidf_self_match": true,
+          "tfidf_score": 1.0,
+          "doc_evidence": true
+        }
+      },
+      {
+        "id": "ICTU_Q254",
+        "category": "dich_vu_ho_tro",
+        "question": "Sinh viên có thể tìm hiểu thông tin về các chương trình học bổng du học ở đâu?",
+        "answer": "Tại Phòng Khoa học - Công nghệ và Hợp tác quốc tế (Phòng 207, nhà C1).",
+        "source": "Sổ tay sinh viên 2025-2026, Phần I",
+        "validation": {
+          "tfidf_self_match": true,
+          "tfidf_score": 1.0,
+          "doc_evidence": true
+        }
+      }
+    ],
+    "diem_so": [
+      {
+        "id": "ICTU_Q213",
+        "category": "diem_so",
+        "question": "Điểm học phần sau khi tính toán được làm tròn đến mấy chữ số thập phân?",
+        "answer": "Điểm học phần được làm tròn đến một chữ số thập phân.",
+        "source": "Điều 22, Quyết định 43/2007/QĐ-BGDĐT",
+        "validation": {
+          "tfidf_self_match": true,
+          "tfidf_score": 1.0,
+          "doc_evidence": true
+        }
+      },
+      {
+        "id": "ICTU_Q214",
+        "category": "diem_so",
+        "question": "Điểm trung bình chung học kỳ và tích lũy được làm tròn đến mấy chữ số?",
+        "answer": "Được làm tròn đến hai chữ số thập phân.",
+        "source": "Điều 23, Quyết định 43/2007/QĐ-BGDĐT",
+        "validation": {
+          "tfidf_self_match": true,
+          "tfidf_score": 1.0,
+          "doc_evidence": true
+        }
+      },
+      {
+        "id": "ICTU_Q289",
+        "category": "diem_so",
+        "question": "Điểm chữ I có ý nghĩa gì?",
+        "answer": "I là ký hiệu cho học phần 'Chưa đủ dữ liệu đánh giá' do sinh viên được phép nợ bài kiểm tra, thi vì lý do khách quan.",
+        "source": "Điều 22, Quyết định 43/2007/QĐ-BGDĐT",
+        "validation": {
+          "tfidf_self_match": true,
+          "tfidf_score": 1.0,
+          "doc_evidence": true
+        }
+      },
+      {
+        "id": "ICTU_Q290",
+        "category": "diem_so",
+        "question": "Điểm chữ X có ý nghĩa gì?",
+        "answer": "X là ký hiệu 'Chưa nhận được kết quả thi' do phòng đào tạo chưa nhận được báo cáo điểm từ khoa.",
+        "source": "Điều 22, Quyết định 43/2007/QĐ-BGDĐT",
+        "validation": {
+          "tfidf_self_match": true,
+          "tfidf_score": 1.0,
+          "doc_evidence": true
+        }
+      },
+      {
+        "id": "ICTU_Q291",
+        "category": "diem_so",
+        "question": "Điểm chữ R có ý nghĩa gì?",
+        "answer": "R là ký hiệu cho các học phần được công nhận kết quả khi sinh viên chuyển trường hoặc chuyển đổi chương trình, hoặc các học phần được thi sớm để học vượt.",
+        "source": "Điều 22, Quyết định 43/2007/QĐ-BGDĐT",
+        "validation": {
+          "tfidf_self_match": true,
+          "tfidf_score": 1.0,
+          "doc_evidence": true
+        }
+      },
+      {
+        "id": "ICTU_Q319",
+        "category": "diem_so",
+        "question": "Nếu có điểm học phần bị điểm F, sinh viên có thể học cải thiện bằng cách nào?",
+        "answer": "Phải đăng ký học lại học phần đó vào một học kỳ sau (chính hoặc phụ) và thi lại.",
+        "source": "Điều 12, Quyết định 43/2007/QĐ-BGDĐT",
+        "validation": {
+          "tfidf_self_match": true,
+          "tfidf_score": 1.0,
+          "doc_evidence": true
+        }
+      },
+      {
+        "id": "ICTU_Q344",
+        "category": "diem_so",
+        "question": "Điểm I phải được chuyển đổi thành điểm chữ (A-F) trong thời gian bao lâu?",
+        "answer": "Trước khi bắt đầu học kỳ mới kế tiếp, sinh viên phải hoàn thành các nội dung còn nợ để được chuyển điểm.",
+        "source": "Điều 22, Quyết định 43/2007/QĐ-BGDĐT",
+        "validation": {
+          "tfidf_self_match": true,
+          "tfidf_score": 1.0,
+          "doc_evidence": true
+        }
+      },
+      {
+        "id": "ICTU_Q367",
+        "category": "diem_so",
+        "question": "Điểm F có được cải thiện bằng cách học lại không?",
+        "answer": "Có, phải đăng ký học lại học phần đó.",
+        "source": "Điều 12, Quyết định 43/2007/QĐ-BGDĐT",
+        "validation": {
+          "tfidf_self_match": true,
+          "tfidf_score": 1.0,
+          "doc_evidence": true
+        }
+      },
+      {
+        "id": "ICTU_Q389",
+        "category": "diem_so",
+        "question": "Điểm trung bình chung tích lũy có được làm tròn khi xét tốt nghiệp không?",
+        "answer": "Điểm trung bình chung tích lũy được làm tròn đến 2 chữ số thập phân để xét tốt nghiệp.",
+        "source": "Điều 23, Quyết định 43/2007/QĐ-BGDĐT",
+        "validation": {
+          "tfidf_self_match": true,
+          "tfidf_score": 1.0,
+          "doc_evidence": true
+        }
+      },
+      {
+        "id": "ICTU_Q410",
+        "category": "diem_so",
+        "question": "Điểm trung bình chung tích lũy dưới 2,00 có được xét tốt nghiệp không?",
+        "answer": "Không, điều kiện tốt nghiệp là điểm trung bình chung tích lũy toàn khóa đạt từ 2,00 trở lên.",
+        "source": "Điều 27, Quyết định 43/2007/QĐ-BGDĐT",
+        "validation": {
+          "tfidf_self_match": true,
+          "tfidf_score": 1.0,
+          "doc_evidence": true
+        }
+      }
+    ],
+    "do_an_tot_nghiep": [
+      {
+        "id": "ICTU_Q197",
+        "category": "do_an_tot_nghiep",
+        "question": "Điều kiện để sinh viên được làm đồ án tốt nghiệp là gì?",
+        "answer": "Thường dựa trên điểm trung bình chung tích lũy đạt mức khá trở lên và đáp ứng các yêu cầu khác do khoa/trường quy định.",
+        "source": "Điều 24, Quyết định 43/2007/QĐ-BGDĐT",
+        "validation": {
+          "tfidf_self_match": true,
+          "tfidf_score": 1.0,
+          "doc_evidence": true
+        }
+      },
+      {
+        "id": "ICTU_Q198",
+        "category": "do_an_tot_nghiep",
+        "question": "Đồ án tốt nghiệp có khối lượng tín chỉ tối đa là bao nhiêu?",
+        "answer": "Không quá 14 tín chỉ đối với trình độ đại học.",
+        "source": "Điều 24, Quyết định 43/2007/QĐ-BGDĐT",
+        "validation": {
+          "tfidf_self_match": true,
+          "tfidf_score": 1.0,
+          "doc_evidence": true
+        }
+      },
+      {
+        "id": "ICTU_Q199",
+        "category": "do_an_tot_nghiep",
+        "question": "Nếu không đủ điều kiện làm đồ án, sinh viên phải làm gì?",
+        "answer": "Phải đăng ký học thêm một số học phần chuyên môn thay thế để tích lũy đủ số tín chỉ yêu cầu của chương trình.",
+        "source": "Điều 24, Quyết định 43/2007/QĐ-BGDĐT",
+        "validation": {
+          "tfidf_self_match": true,
+          "tfidf_score": 1.0,
+          "doc_evidence": true
+        }
+      },
+      {
+        "id": "ICTU_Q200",
+        "category": "do_an_tot_nghiep",
+        "question": "Điểm đồ án tốt nghiệp có được tính vào điểm trung bình chung tích lũy không?",
+        "answer": "Có, điểm đồ án tốt nghiệp được tính vào điểm trung bình chung tích lũy của toàn khóa học.",
+        "source": "Điều 25, Quyết định 43/2007/QĐ-BGDĐT",
+        "validation": {
+          "tfidf_self_match": true,
+          "tfidf_score": 1.0,
+          "doc_evidence": true
+        }
+      },
+      {
+        "id": "ICTU_Q201",
+        "category": "do_an_tot_nghiep",
+        "question": "Sinh viên bị điểm F ở đồ án tốt nghiệp thì xử lý thế nào?",
+        "answer": "Phải đăng ký làm lại đồ án tốt nghiệp hoặc đăng ký học thêm các học phần chuyên môn thay thế có tổng số tín chỉ tương đương.",
+        "source": "Điều 25, Quyết định 43/2007/QĐ-BGDĐT",
+        "validation": {
+          "tfidf_self_match": true,
+          "tfidf_score": 1.0,
+          "doc_evidence": true
+        }
+      },
+      {
+        "id": "ICTU_Q284",
+        "category": "do_an_tot_nghiep",
+        "question": "Sinh viên có thể bảo vệ đồ án tốt nghiệp bằng tiếng Anh không?",
+        "answer": "Có thể, nếu được sự đồng ý của giảng viên hướng dẫn và hội đồng chấm. Điều này được khuyến khích cho các chương trình chất lượng cao, quốc tế.",
+        "source": "Quy chế đào tạo",
+        "validation": {
+          "tfidf_self_match": true,
+          "tfidf_score": 1.0,
+          "doc_evidence": true
+        }
+      },
+      {
+        "id": "ICTU_Q315",
+        "category": "do_an_tot_nghiep",
+        "question": "Điểm đồ án tốt nghiệp do ai chấm?",
+        "answer": "Do hội đồng chấm đồ án gồm ít nhất 2 giảng viên do Hiệu trưởng quyết định thành lập.",
+        "source": "Điều 25, Quyết định 43/2007/QĐ-BGDĐT",
+        "validation": {
+          "tfidf_self_match": true,
+          "tfidf_score": 1.0,
+          "doc_evidence": true
+        }
+      },
+      {
+        "id": "ICTU_Q340",
+        "category": "do_an_tot_nghiep",
+        "question": "Nếu đồ án tốt nghiệp bị điểm F, sinh viên có được bảo lưu kết quả các học phần khác không?",
+        "answer": "Kết quả các học phần khác vẫn được bảo lưu. Sinh viên chỉ phải làm lại đồ án hoặc học các học phần thay thế.",
+        "source": "Điều 25, Quyết định 43/2007/QĐ-BGDĐT",
+        "validation": {
+          "tfidf_self_match": true,
+          "tfidf_score": 1.0,
+          "doc_evidence": true
+        }
+      },
+      {
+        "id": "ICTU_Q363",
+        "category": "do_an_tot_nghiep",
+        "question": "Thời gian tối đa để hoàn thành đồ án tốt nghiệp là bao lâu?",
+        "answer": "Thường trong một học kỳ, nhưng có thể kéo dài hơn nếu được sự đồng ý của giảng viên hướng dẫn và khoa.",
+        "source": "Quy chế đào tạo",
+        "validation": {
+          "tfidf_self_match": true,
+          "tfidf_score": 1.0,
+          "doc_evidence": true
+        }
+      },
+      {
+        "id": "ICTU_Q385",
+        "category": "do_an_tot_nghiep",
+        "question": "Điểm đồ án tốt nghiệp có ảnh hưởng đến điểm trung bình chung tích lũy không?",
+        "answer": "Có, điểm đồ án được tính như một học phần và góp phần vào điểm trung bình chung tích lũy.",
+        "source": "Điều 25, Quyết định 43/2007/QĐ-BGDĐT",
+        "validation": {
+          "tfidf_self_match": true,
+          "tfidf_score": 1.0,
+          "doc_evidence": true
+        }
+      }
+    ],
+    "hoat_dong_ngoai_khoa": [
+      {
+        "id": "ICTU_Q099",
+        "category": "hoat_dong_ngoai_khoa",
+        "question": "Mục đích của hoạt động ngoại khóa (HĐNK) tại ICTU là gì?",
+        "answer": "Bổ trợ kiến thức, rèn luyện kỹ năng mềm, phát huy tinh thần xung kích, nâng cao ý thức trách nhiệm với cộng đồng.",
+        "source": "Điều 3, Quyết định 113/QĐ-ĐHCNTT&TT",
+        "validation": {
+          "tfidf_self_match": true,
+          "tfidf_score": 1.0,
+          "doc_evidence": true
+        }
+      },
+      {
+        "id": "ICTU_Q100",
+        "category": "hoat_dong_ngoai_khoa",
+        "question": "Các loại hình hoạt động ngoại khóa tại ICTU gồm những gì?",
+        "answer": "Giáo dục chính trị tư tưởng; khoa học - học thuật; văn hóa - văn nghệ; tình nguyện - thiện nguyện; thể dục - thể thao; hoạt động theo triệu tập; truyền thông; phục vụ cộng đồng theo chuyên môn; hoạt động khác.",
+        "source": "Điều 4, Quyết định 113/QĐ-ĐHCNTT&TT",
+        "validation": {
+          "tfidf_self_match": true,
+          "tfidf_score": 1.0,
+          "doc_evidence": true
+        }
+      },
+      {
+        "id": "ICTU_Q101",
+        "category": "hoat_dong_ngoai_khoa",
+        "question": "Điểm HĐNK tối thiểu cần đạt cho sinh viên hệ đào tạo 4 năm là bao nhiêu?",
+        "answer": "165 điểm cho toàn khóa.",
+        "source": "Điều 5, Quyết định 113/QĐ-ĐHCNTT&TT",
+        "validation": {
+          "tfidf_self_match": true,
+          "tfidf_score": 1.0,
+          "doc_evidence": true
+        }
+      },
+      {
+        "id": "ICTU_Q103",
+        "category": "hoat_dong_ngoai_khoa",
+        "question": "Phân loại kết quả HĐNK như thế nào?",
+        "answer": "Hệ 4 năm: Xuất sắc ≥450, Tốt 350-449, Khá 250-349, Trung bình 165-249, Không đạt <165. Hệ trên 4 năm: Xuất sắc ≥500, Tốt 400-499, Khá 300-399, Trung bình 215-299, Không đạt <215.",
+        "source": "Điều 5, Quyết định 113/QĐ-ĐHCNTT&TT",
+        "validation": {
+          "tfidf_self_match": true,
+          "tfidf_score": 1.0,
+          "doc_evidence": true
+        }
+      },
+      {
+        "id": "ICTU_Q104",
+        "category": "hoat_dong_ngoai_khoa",
+        "question": "Sinh viên không đạt đủ điểm HĐNK có được xét tốt nghiệp không?",
+        "answer": "Không. Phải bổ sung đủ điểm HĐNK tối thiểu mới được giải quyết thủ tục ra trường.",
+        "source": "Điều 9, Quyết định 113/QĐ-ĐHCNTT&TT",
+        "validation": {
+          "tfidf_self_match": true,
+          "tfidf_score": 1.0,
+          "doc_evidence": true
+        }
+      },
+      {
+        "id": "ICTU_Q105",
+        "category": "hoat_dong_ngoai_khoa",
+        "question": "Sinh viên tham gia hiến máu tình nguyện được cộng bao nhiêu điểm HĐNK?",
+        "answer": "20 điểm cho một lần hiến máu.",
+        "source": "Điều 5, Quyết định 113/QĐ-ĐHCNTT&TT",
+        "validation": {
+          "tfidf_self_match": true,
+          "tfidf_score": 1.0,
+          "doc_evidence": true
+        }
+      },
+      {
+        "id": "ICTU_Q109",
+        "category": "hoat_dong_ngoai_khoa",
+        "question": "Sinh viên đăng ký tham gia hoạt động nhưng không tham gia không có lý do bị xử lý thế nào?",
+        "answer": "Bị trừ 30% số điểm của hoạt động đó.",
+        "source": "Điều 5, Quyết định 113/QĐ-ĐHCNTT&TT",
+        "validation": {
+          "tfidf_self_match": true,
+          "tfidf_score": 1.0,
+          "doc_evidence": true
+        }
+      },
+      {
+        "id": "ICTU_Q110",
+        "category": "hoat_dong_ngoai_khoa",
+        "question": "Sinh viên tham dự một buổi hoạt động ngoại khóa do khoa tổ chức được bao nhiêu điểm?",
+        "answer": "3 điểm cho vai trò tham dự.",
+        "source": "Điều 5, Quyết định 113/QĐ-ĐHCNTT&TT",
+        "validation": {
+          "tfidf_self_match": true,
+          "tfidf_score": 1.0,
+          "doc_evidence": true
+        }
+      },
+      {
+        "id": "ICTU_Q247",
+        "category": "hoat_dong_ngoai_khoa",
+        "question": "Sinh viên tham gia hoạt động truyền thông (like, share bài viết của trường) có được cộng điểm HĐNK không?",
+        "answer": "Có, hoạt động hỗ trợ truyền thông được cộng 5 điểm (theo mục 4, Điều 5, Quyết định 113).",
+        "source": "Điều 5, Quyết định 113/QĐ-ĐHCNTT&TT",
+        "validation": {
+          "tfidf_self_match": true,
+          "tfidf_score": 1.0,
+          "doc_evidence": true
+        }
+      },
+      {
+        "id": "ICTU_Q248",
+        "category": "hoat_dong_ngoai_khoa",
+        "question": "Sinh viên tham gia một buổi tình nguyện, lao động theo triệu tập được cộng bao nhiêu điểm HĐNK?",
+        "answer": "10 điểm/buổi.",
+        "source": "Điều 5, Quyết định 113/QĐ-ĐHCNTT&TT",
+        "validation": {
+          "tfidf_self_match": true,
+          "tfidf_score": 1.0,
+          "doc_evidence": true
+        }
+      }
+    ],
+    "hoc_ky_phu": [
+      {
+        "id": "ICTU_Q210",
+        "category": "hoc_ky_phu",
+        "question": "Sinh viên có thể đăng ký học kỳ phụ để học lại các học phần bị điểm F không?",
+        "answer": "Có, học kỳ phụ được tổ chức để tạo điều kiện cho sinh viên học lại, học bù hoặc học vượt.",
+        "source": "Điều 6, Quyết định 43/2007/QĐ-BGDĐT",
+        "validation": {
+          "tfidf_self_match": true,
+          "tfidf_score": 1.0,
+          "doc_evidence": true
+        }
+      },
+      {
+        "id": "ICTU_Q211",
+        "category": "hoc_ky_phu",
+        "question": "Học kỳ phụ thường được tổ chức vào thời gian nào trong năm?",
+        "answer": "Thường được tổ chức vào thời gian nghỉ hè, giữa các học kỳ chính.",
+        "source": "Quy chế đào tạo",
+        "validation": {
+          "tfidf_self_match": true,
+          "tfidf_score": 1.0,
+          "doc_evidence": true
+        }
+      },
+      {
+        "id": "ICTU_Q212",
+        "category": "hoc_ky_phu",
+        "question": "Sinh viên năm cuối có thể đăng ký học kỳ phụ để kịp ra trường không?",
+        "answer": "Có, nếu còn nợ một số học phần, sinh viên có thể đăng ký học lại trong học kỳ phụ để hoàn thành chương trình.",
+        "source": "Quy chế đào tạo",
+        "validation": {
+          "tfidf_self_match": true,
+          "tfidf_score": 1.0,
+          "doc_evidence": true
+        }
+      },
+      {
+        "id": "ICTU_Q288",
+        "category": "hoc_ky_phu",
+        "question": "Học kỳ phụ thường kéo dài bao nhiêu tuần?",
+        "answer": "Có ít nhất 5 tuần thực học và 1 tuần thi.",
+        "source": "Điều 6, Quyết định 43/2007/QĐ-BGDĐT",
+        "validation": {
+          "tfidf_self_match": true,
+          "tfidf_score": 1.0,
+          "doc_evidence": true
+        }
+      },
+      {
+        "id": "ICTU_Q318",
+        "category": "hoc_ky_phu",
+        "question": "Học phí học kỳ phụ được tính như thế nào?",
+        "answer": "Được tính theo số tín chỉ đăng ký học trong học kỳ phụ, với mức học phí tín chỉ áp dụng cho năm học đó.",
+        "source": "Quy chế đào tạo, Nghị định 81",
+        "validation": {
+          "tfidf_self_match": true,
+          "tfidf_score": 1.0,
+          "doc_evidence": true
+        }
+      },
+      {
+        "id": "ICTU_Q343",
+        "category": "hoc_ky_phu",
+        "question": "Sinh viên có thể đăng ký tối đa bao nhiêu tín chỉ trong học kỳ phụ?",
+        "answer": "Thường không quá 8-10 tín chỉ, tùy theo quy định của từng trường. Học kỳ phụ ngắn nên khối lượng học tập bị giới hạn.",
+        "source": "Quy chế đào tạo",
+        "validation": {
+          "tfidf_self_match": true,
+          "tfidf_score": 1.0,
+          "doc_evidence": true
+        }
+      },
+      {
+        "id": "ICTU_Q366",
+        "category": "hoc_ky_phu",
+        "question": "Sinh viên có thể đăng ký học kỳ phụ ngay sau khi kết thúc học kỳ chính không?",
+        "answer": "Có, nếu trường thông báo tổ chức học kỳ phụ.",
+        "source": "Quy chế đào tạo",
+        "validation": {
+          "tfidf_self_match": true,
+          "tfidf_score": 1.0,
+          "doc_evidence": true
+        }
+      },
+      {
+        "id": "ICTU_Q388",
+        "category": "hoc_ky_phu",
+        "question": "Sinh viên có thể học kỳ phụ để cải thiện điểm không?",
+        "answer": "Có, nếu đăng ký học lại các học phần đã học.",
+        "source": "Quy chế đào tạo",
+        "validation": {
+          "tfidf_self_match": true,
+          "tfidf_score": 1.0,
+          "doc_evidence": true
+        }
+      },
+      {
+        "id": "ICTU_Q409",
+        "category": "hoc_ky_phu",
+        "question": "Sinh viên có thể đăng ký học kỳ phụ để tốt nghiệp sớm hơn không?",
+        "answer": "Có, nếu tích lũy đủ tín chỉ sớm nhờ học vượt.",
+        "source": "Quy chế đào tạo",
+        "validation": {
+          "tfidf_self_match": true,
+          "tfidf_score": 1.0,
+          "doc_evidence": true
+        }
+      },
+      {
+        "id": "ICTU_Q430",
+        "category": "hoc_ky_phu",
+        "question": "Học kỳ phụ có tổ chức thi lại cho tất cả các học phần không?",
+        "answer": "Thường chỉ tổ chức cho một số học phần có đông sinh viên đăng ký học lại hoặc học bù.",
+        "source": "Quy chế đào tạo",
+        "validation": {
+          "tfidf_self_match": true,
+          "tfidf_score": 1.0,
+          "doc_evidence": true
+        }
+      }
+    ],
+    "hoc_phi": [
+      {
+        "id": "ICTU_Q121",
+        "category": "hoc_phi",
+        "question": "Học phí năm học 2025-2026 đối với chương trình đại trà khối ngành V (Công nghệ thông tin, Kỹ thuật) là bao nhiêu?",
+        "answer": "1.850.000 đồng/tháng.",
+        "source": "Thông tin tuyển sinh 2025, Quyết định học phí 2025-2026",
+        "validation": {
+          "tfidf_self_match": true,
+          "tfidf_score": 1.0,
+          "doc_evidence": true
+        }
+      },
+      {
+        "id": "ICTU_Q122",
+        "category": "hoc_phi",
+        "question": "Học phí năm học 2025-2026 cho chương trình đại trà khối ngành III (Kinh doanh, Quản lý) là bao nhiêu?",
+        "answer": "1.590.000 đồng/tháng.",
+        "source": "Thông tin tuyển sinh 2025, Quyết định học phí 2025-2026",
+        "validation": {
+          "tfidf_self_match": true,
+          "tfidf_score": 1.0,
+          "doc_evidence": true
+        }
+      },
+      {
+        "id": "ICTU_Q123",
+        "category": "hoc_phi",
+        "question": "Học phí năm học 2025-2026 cho chương trình đại trà khối ngành VII (Báo chí, Truyền thông) là bao nhiêu?",
+        "answer": "1.690.000 đồng/tháng.",
+        "source": "Thông tin tuyển sinh 2025, Quyết định học phí 2025-2026",
+        "validation": {
+          "tfidf_self_match": true,
+          "tfidf_score": 1.0,
+          "doc_evidence": true
+        }
+      },
+      {
+        "id": "ICTU_Q124",
+        "category": "hoc_phi",
+        "question": "Học phí năm học 2025-2026 cho chương trình đại trà khối ngành II (Nghệ thuật) là bao nhiêu?",
+        "answer": "1.520.000 đồng/tháng.",
+        "source": "Thông tin tuyển sinh 2025, Quyết định học phí 2025-2026",
+        "validation": {
+          "tfidf_self_match": true,
+          "tfidf_score": 1.0,
+          "doc_evidence": true
+        }
+      },
+      {
+        "id": "ICTU_Q125",
+        "category": "hoc_phi",
+        "question": "Học phí chương trình đào tạo chất lượng cao ngành Công nghệ thông tin là bao nhiêu?",
+        "answer": "895.000 đồng/tín chỉ.",
+        "source": "Quyết định học phí 2025-2026",
+        "validation": {
+          "tfidf_self_match": true,
+          "tfidf_score": 1.0,
+          "doc_evidence": true
+        }
+      },
+      {
+        "id": "ICTU_Q126",
+        "category": "hoc_phi",
+        "question": "Học phí chương trình liên kết quốc tế ngành Kỹ thuật phần mềm với Đại học Kyungpook (Hàn Quốc) là bao nhiêu?",
+        "answer": "2.000 USD/năm, tương đương khoảng 49.946.000 đồng/năm (theo tỷ giá 24.973 VNĐ/USD).",
+        "source": "Thông tin tuyển sinh 2025, Quyết định học phí 2025-2026",
+        "validation": {
+          "tfidf_self_match": true,
+          "tfidf_score": 1.0,
+          "doc_evidence": true
+        }
+      },
+      {
+        "id": "ICTU_Q127",
+        "category": "hoc_phi",
+        "question": "Học phí chương trình Công nghệ thông tin quốc tế (lớp chuyên ngành) cho khóa 23, 24 là bao nhiêu?",
+        "answer": "14.500.000 đồng/học kỳ.",
+        "source": "Quyết định học phí 2025-2026",
+        "validation": {
+          "tfidf_self_match": true,
+          "tfidf_score": 1.0,
+          "doc_evidence": true
+        }
+      },
+      {
+        "id": "ICTU_Q128",
+        "category": "hoc_phi",
+        "question": "Học phí lớp tiếng Anh dự bị của chương trình Công nghệ thông tin quốc tế là bao nhiêu?",
+        "answer": "7.000.000 đồng/học kỳ.",
+        "source": "Quyết định học phí 2025-2026",
+        "validation": {
+          "tfidf_self_match": true,
+          "tfidf_score": 1.0,
+          "doc_evidence": true
+        }
+      },
+      {
+        "id": "ICTU_Q129",
+        "category": "hoc_phi",
+        "question": "Học phí đào tạo vừa làm vừa học khối ngành V (khóa 23,24) là bao nhiêu?",
+        "answer": "2.775.000 đồng/tháng.",
+        "source": "Quyết định học phí 2025-2026",
+        "validation": {
+          "tfidf_self_match": true,
+          "tfidf_score": 1.0,
+          "doc_evidence": true
+        }
+      },
+      {
+        "id": "ICTU_Q130",
+        "category": "hoc_phi",
+        "question": "Học phí tín chỉ cho sinh viên vừa làm vừa học khóa 23,24 khối ngành V là bao nhiêu?",
+        "answer": "853.000 đồng/tín chỉ.",
+        "source": "Quyết định học phí 2025-2026",
+        "validation": {
+          "tfidf_self_match": true,
+          "tfidf_score": 1.0,
+          "doc_evidence": true
+        }
+      }
+    ],
+    "hoc_phi_chinh_sach": [
+      {
+        "id": "ICTU_Q112",
+        "category": "hoc_phi_chinh_sach",
+        "question": "Theo Nghị định 81/2021, đối tượng nào được miễn học phí?",
+        "answer": "Người có công, trẻ em mẫu giáo và học sinh sinh viên khuyết tật, trẻ mồ côi, học sinh dân tộc thiểu số rất ít người, sinh viên học chuyên ngành Mác-Lênin, v.v.",
+        "source": "Điều 15, Nghị định 81/2021/NĐ-CP",
+        "validation": {
+          "tfidf_self_match": true,
+          "tfidf_score": 1.0,
+          "doc_evidence": true
+        }
+      },
+      {
+        "id": "ICTU_Q113",
+        "category": "hoc_phi_chinh_sach",
+        "question": "Sinh viên học chuyên ngành Mác-Lênin và Tư tưởng Hồ Chí Minh có được miễn học phí không?",
+        "answer": "Có, theo quy định tại khoản 13 Điều 15 Nghị định 81/2021.",
+        "source": "Điều 15, Nghị định 81/2021/NĐ-CP",
+        "validation": {
+          "tfidf_self_match": true,
+          "tfidf_score": 1.0,
+          "doc_evidence": true
+        }
+      },
+      {
+        "id": "ICTU_Q114",
+        "category": "hoc_phi_chinh_sach",
+        "question": "Đối tượng được giảm 70% học phí gồm những ai?",
+        "answer": "Sinh viên học các ngành nghệ thuật truyền thống (chèo, tuồng, cải lương...), học nghề nặng nhọc độc hại, học sinh dân tộc thiểu số ở vùng đặc biệt khó khăn.",
+        "source": "Điều 16, Nghị định 81/2021/NĐ-CP",
+        "validation": {
+          "tfidf_self_match": true,
+          "tfidf_score": 1.0,
+          "doc_evidence": true
+        }
+      },
+      {
+        "id": "ICTU_Q115",
+        "category": "hoc_phi_chinh_sach",
+        "question": "Đối tượng được giảm 50% học phí?",
+        "answer": "Con cán bộ, công nhân bị tai nạn lao động hưởng trợ cấp thường xuyên; học sinh thuộc hộ cận nghèo.",
+        "source": "Điều 16, Nghị định 81/2021/NĐ-CP",
+        "validation": {
+          "tfidf_self_match": true,
+          "tfidf_score": 1.0,
+          "doc_evidence": true
+        }
+      },
+      {
+        "id": "ICTU_Q116",
+        "category": "hoc_phi_chinh_sach",
+        "question": "Hồ sơ xin miễn giảm học phí gồm những gì? Nộp ở đâu?",
+        "answer": "Đơn theo mẫu (Phụ lục V hoặc VII) kèm bản sao giấy tờ chứng minh (giấy xác nhận hộ nghèo, giấy chứng nhận khuyết tật...). Nộp cho cơ sở giáo dục (Phòng CT-HSSV hoặc Phòng Đào tạo) trong vòng 45 ngày kể từ khai giảng.",
+        "source": "Điều 19, Nghị định 81/2021/NĐ-CP",
+        "validation": {
+          "tfidf_self_match": true,
+          "tfidf_score": 1.0,
+          "doc_evidence": true
+        }
+      },
+      {
+        "id": "ICTU_Q117",
+        "category": "hoc_phi_chinh_sach",
+        "question": "Mức hỗ trợ chi phí học tập cho sinh viên thuộc diện hộ nghèo là bao nhiêu?",
+        "answer": "150.000 đồng/tháng, thời gian hỗ trợ không quá 9 tháng/năm học.",
+        "source": "Điều 20, Nghị định 81/2021/NĐ-CP",
+        "validation": {
+          "tfidf_self_match": true,
+          "tfidf_score": 1.0,
+          "doc_evidence": true
+        }
+      },
+      {
+        "id": "ICTU_Q118",
+        "category": "hoc_phi_chinh_sach",
+        "question": "Sinh viên có thể đóng học phí theo những hình thức nào?",
+        "answer": "Học phí thu định kỳ hàng tháng, nhưng có thể thu một lần cho cả học kỳ hoặc cả năm nếu sinh viên tự nguyện.",
+        "source": "Điều 12, Nghị định 81/2021/NĐ-CP",
+        "validation": {
+          "tfidf_self_match": true,
+          "tfidf_score": 1.0,
+          "doc_evidence": true
+        }
+      },
+      {
+        "id": "ICTU_Q119",
+        "category": "hoc_phi_chinh_sach",
+        "question": "Mức trần học phí đối với cơ sở GDĐH công lập chưa tự bảo đảm chi thường xuyên năm 2022-2023 khối ngành V (Máy tính, CNTT) là bao nhiêu?",
+        "answer": "1.450.000 đồng/sinh viên/tháng.",
+        "source": "Điều 11, Nghị định 81/2021/NĐ-CP",
+        "validation": {
+          "tfidf_self_match": true,
+          "tfidf_score": 1.0,
+          "doc_evidence": true
+        }
+      },
+      {
+        "id": "ICTU_Q120",
+        "category": "hoc_phi_chinh_sach",
+        "question": "Nguyên tắc xác định học phí theo tín chỉ là gì?",
+        "answer": "Học phí một tín chỉ = Tổng học phí toàn khóa / Tổng số tín chỉ toàn khóa.",
+        "source": "Điều 11, Nghị định 81/2021/NĐ-CP",
+        "validation": {
+          "tfidf_self_match": true,
+          "tfidf_score": 1.0,
+          "doc_evidence": true
+        }
+      }
+    ],
+    "hoi_dong_tot_nghiep": [
+      {
+        "id": "ICTU_Q202",
+        "category": "hoi_dong_tot_nghiep",
+        "question": "Hội đồng xét tốt nghiệp của trường gồm những thành phần nào?",
+        "answer": "Chủ tịch Hội đồng là Hiệu trưởng hoặc Phó Hiệu trưởng được ủy quyền, Thư ký là Trưởng phòng Đào tạo, các ủy viên là Trưởng các khoa chuyên môn và Trưởng phòng Công tác sinh viên.",
+        "source": "Điều 27, Quyết định 43/2007/QĐ-BGDĐT",
+        "validation": {
+          "tfidf_self_match": true,
+          "tfidf_score": 1.0,
+          "doc_evidence": true
+        }
+      },
+      {
+        "id": "ICTU_Q285",
+        "category": "hoi_dong_tot_nghiep",
+        "question": "Hội đồng xét tốt nghiệp họp khi nào?",
+        "answer": "Sau mỗi học kỳ, Hội đồng xét tốt nghiệp sẽ họp để xét công nhận tốt nghiệp cho những sinh viên đủ điều kiện.",
+        "source": "Điều 27, Quyết định 43/2007/QĐ-BGDĐT",
+        "validation": {
+          "tfidf_self_match": true,
+          "tfidf_score": 1.0,
+          "doc_evidence": true
+        }
+      }
+    ],
+    "khen_thuong_ky_luat": [
+      {
+        "id": "ICTU_Q134",
+        "category": "khen_thuong_ky_luat",
+        "question": "ICTU có những hình thức khen thưởng nào cho sinh viên?",
+        "answer": "Khen thưởng toàn diện (Giấy khen kèm tiền thưởng cho danh hiệu Giỏi, Xuất sắc) và khen thưởng đột xuất cho thành tích đặc biệt.",
+        "source": "Điều 18, Quyết định 256/QĐ-ĐHCNTT&TT",
+        "validation": {
+          "tfidf_self_match": true,
+          "tfidf_score": 1.0,
+          "doc_evidence": true
+        }
+      },
+      {
+        "id": "ICTU_Q135",
+        "category": "khen_thuong_ky_luat",
+        "question": "Điều kiện để đạt danh hiệu 'Sinh viên xuất sắc' năm học?",
+        "answer": "Kết quả học tập từ 3,60-4,00, điểm rèn luyện xuất sắc, số tín chỉ đăng ký tối thiểu 15, không có học phần nào bị điểm F.",
+        "source": "Điều 19, Quyết định 256/QĐ-ĐHCNTT&TT",
+        "validation": {
+          "tfidf_self_match": true,
+          "tfidf_score": 1.0,
+          "doc_evidence": true
+        }
+      },
+      {
+        "id": "ICTU_Q136",
+        "category": "khen_thuong_ky_luat",
+        "question": "Điều kiện để đạt danh hiệu 'Sinh viên giỏi' năm học?",
+        "answer": "Kết quả học tập từ 3,60-4,00 và rèn luyện tốt, hoặc từ 3,20-3,59 và rèn luyện từ tốt trở lên, kèm điều kiện về tín chỉ đăng ký và không điểm F.",
+        "source": "Điều 19, Quyết định 256/QĐ-ĐHCNTT&TT",
+        "validation": {
+          "tfidf_self_match": true,
+          "tfidf_score": 1.0,
+          "doc_evidence": true
+        }
+      },
+      {
+        "id": "ICTU_Q137",
+        "category": "khen_thuong_ky_luat",
+        "question": "Sinh viên bị kỷ luật có những hình thức nào?",
+        "answer": "Khiển trách, cảnh cáo, đình chỉ học tập có thời hạn, buộc thôi học.",
+        "source": "Điều 24, Quyết định 256/QĐ-ĐHCNTT&TT",
+        "validation": {
+          "tfidf_self_match": true,
+          "tfidf_score": 1.0,
+          "doc_evidence": true
+        }
+      },
+      {
+        "id": "ICTU_Q138",
+        "category": "khen_thuong_ky_luat",
+        "question": "Hành vi nào dẫn đến buộc thôi học?",
+        "answer": "Nghỉ học không lý do từ một học kỳ trở lên; điểm trung bình tất cả học phần trong kỳ bằng 0; số lần cảnh báo học tập vượt giới hạn; vi phạm kỷ luật nghiêm trọng; không đăng ký nhập học; sử dụng văn bằng giả.",
+        "source": "Điều 23, Quyết định 256/QĐ-ĐHCNTT&TT",
+        "validation": {
+          "tfidf_self_match": true,
+          "tfidf_score": 1.0,
+          "doc_evidence": true
+        }
+      },
+      {
+        "id": "ICTU_Q139",
+        "category": "khen_thuong_ky_luat",
+        "question": "Thời hạn hiệu lực của quyết định kỷ luật khiển trách là bao lâu?",
+        "answer": "3 tháng, nếu không vi phạm tiếp thì đương nhiên chấm dứt hiệu lực.",
+        "source": "Điều 26, Quyết định 256/QĐ-ĐHCNTT&TT",
+        "validation": {
+          "tfidf_self_match": true,
+          "tfidf_score": 1.0,
+          "doc_evidence": true
+        }
+      },
+      {
+        "id": "ICTU_Q141",
+        "category": "khen_thuong_ky_luat",
+        "question": "Theo phụ lục, hành vi 'không đeo thẻ sinh viên' bị xử lý thế nào?",
+        "answer": "Lần 2 bị khiển trách, lần 3 bị cảnh cáo.",
+        "source": "Phụ lục, Quyết định 256/QĐ-ĐHCNTT&TT",
+        "validation": {
+          "tfidf_self_match": true,
+          "tfidf_score": 1.0,
+          "doc_evidence": true
+        }
+      },
+      {
+        "id": "ICTU_Q142",
+        "category": "khen_thuong_ky_luat",
+        "question": "Hành vi 'học hộ, thi hộ' bị xử lý thế nào?",
+        "answer": "Lần đầu đình chỉ học tập một năm, lần thứ hai buộc thôi học.",
+        "source": "Phụ lục, Quyết định 256/QĐ-ĐHCNTT&TT",
+        "validation": {
+          "tfidf_self_match": true,
+          "tfidf_score": 1.0,
+          "doc_evidence": true
+        }
+      },
+      {
+        "id": "ICTU_Q143",
+        "category": "khen_thuong_ky_luat",
+        "question": "Hành vi 'đánh nhau' bị xử lý thế nào?",
+        "answer": "Lần 1 cảnh cáo, lần 2 đình chỉ học tập, lần 3 buộc thôi học.",
+        "source": "Phụ lục, Quyết định 256/QĐ-ĐHCNTT&TT",
+        "validation": {
+          "tfidf_self_match": true,
+          "tfidf_score": 1.0,
+          "doc_evidence": true
+        }
+      },
+      {
+        "id": "ICTU_Q144",
+        "category": "khen_thuong_ky_luat",
+        "question": "Hành vi 'hút thuốc lá trong phòng học' bị xử lý ra sao?",
+        "answer": "Lần 3 bị khiển trách, lần 4 cảnh cáo, lần 5 đình chỉ học tập.",
+        "source": "Phụ lục, Quyết định 256/QĐ-ĐHCNTT&TT",
+        "validation": {
+          "tfidf_self_match": true,
+          "tfidf_score": 1.0,
+          "doc_evidence": true
+        }
+      }
+    ],
+    "ky_tuc_xa": [
+      {
+        "id": "ICTU_Q180",
+        "category": "ky_tuc_xa",
+        "question": "Sinh viên ở ký túc xá cần tuân thủ những nội quy cơ bản nào?",
+        "answer": "Chấp hành giờ giấc ra vào, giữ gìn vệ sinh chung, bảo vệ tài sản, không gây mất trật tự an ninh, không sử dụng các chất cấm.",
+        "source": "Sổ tay sinh viên 2025-2026",
+        "validation": {
+          "tfidf_self_match": true,
+          "tfidf_score": 1.0,
+          "doc_evidence": true
+        }
+      },
+      {
+        "id": "ICTU_Q181",
+        "category": "ky_tuc_xa",
+        "question": "Sinh viên có thể đăng ký ở ngoại trú không? Thủ tục thế nào?",
+        "answer": "Có thể. Sinh viên phải đăng ký tạm trú với chính quyền địa phương và thông báo nơi ở mới cho nhà trường (Phòng CT-HSSV) để quản lý.",
+        "source": "Sổ tay sinh viên 2025-2026",
+        "validation": {
+          "tfidf_self_match": true,
+          "tfidf_score": 1.0,
+          "doc_evidence": true
+        }
+      },
+      {
+        "id": "ICTU_Q182",
+        "category": "ky_tuc_xa",
+        "question": "Sinh viên ngoại trú có phải tham gia các hoạt động của ký túc xá không?",
+        "answer": "Không, nhưng vẫn phải tham gia đầy đủ các hoạt động ngoại khóa chung của trường, lớp, khoa.",
+        "source": "Sổ tay sinh viên 2025-2026",
+        "validation": {
+          "tfidf_self_match": true,
+          "tfidf_score": 1.0,
+          "doc_evidence": true
+        }
+      },
+      {
+        "id": "ICTU_Q183",
+        "category": "ky_tuc_xa",
+        "question": "Sinh viên có thể xin giấy xác nhận tạm trú tại ký túc xá ở đâu?",
+        "answer": "Tại Phòng Công tác Học sinh, sinh viên hoặc ban quản lý ký túc xá.",
+        "source": "Sổ tay sinh viên 2025-2026",
+        "validation": {
+          "tfidf_self_match": true,
+          "tfidf_score": 1.0,
+          "doc_evidence": true
+        }
+      },
+      {
+        "id": "ICTU_Q277",
+        "category": "ky_tuc_xa",
+        "question": "Điều kiện để được ở ký túc xá ICTU là gì?",
+        "answer": "Sinh viên chính quy có nhu cầu, đặc biệt ưu tiên sinh viên ở xa, sinh viên có hoàn cảnh khó khăn, sinh viên dân tộc thiểu số.",
+        "source": "Sổ tay sinh viên",
+        "validation": {
+          "tfidf_self_match": true,
+          "tfidf_score": 1.0,
+          "doc_evidence": true
+        }
+      },
+      {
+        "id": "ICTU_Q278",
+        "category": "ky_tuc_xa",
+        "question": "Lệ phí ở ký túc xá là bao nhiêu?",
+        "answer": "Mức thu được nhà trường quy định cụ thể từng năm và công bố tại thời điểm đăng ký. Sinh viên liên hệ Phòng CT-HSSV để biết chi tiết.",
+        "source": "Sổ tay sinh viên",
+        "validation": {
+          "tfidf_self_match": true,
+          "tfidf_score": 1.0,
+          "doc_evidence": true
+        }
+      },
+      {
+        "id": "ICTU_Q308",
+        "category": "ky_tuc_xa",
+        "question": "Sinh viên nội trú có được phép nấu ăn trong phòng không?",
+        "answer": "Thường không được phép nấu ăn trong phòng vì lý do an toàn phòng cháy chữa cháy. Có khu vực bếp chung nếu có.",
+        "source": "Sổ tay sinh viên (nội quy KTX)",
+        "validation": {
+          "tfidf_self_match": true,
+          "tfidf_score": 1.0,
+          "doc_evidence": true
+        }
+      },
+      {
+        "id": "ICTU_Q309",
+        "category": "ky_tuc_xa",
+        "question": "Quy định về giờ giới nghiêm ở ký túc xá?",
+        "answer": "Thông thường, sinh viên cần có mặt tại KTX trước 22h hoặc 23h tùy quy định cụ thể. Việc về muộn cần xin phép bảo vệ.",
+        "source": "Sổ tay sinh viên (nội quy KTX)",
+        "validation": {
+          "tfidf_self_match": true,
+          "tfidf_score": 1.0,
+          "doc_evidence": true
+        }
+      },
+      {
+        "id": "ICTU_Q334",
+        "category": "ky_tuc_xa",
+        "question": "Sinh viên có thể đăng ký ở ghép nhiều người trong một phòng KTX không?",
+        "answer": "Có, tùy theo diện tích phòng, KTX sẽ bố trí từ 4-8 sinh viên/phòng.",
+        "source": "Sổ tay sinh viên",
+        "validation": {
+          "tfidf_self_match": true,
+          "tfidf_score": 1.0,
+          "doc_evidence": true
+        }
+      },
+      {
+        "id": "ICTU_Q357",
+        "category": "ky_tuc_xa",
+        "question": "Sinh viên ở KTX có được phép sử dụng các thiết bị điện công suất lớn (nồi cơm, bếp điện) không?",
+        "answer": "Không, đây là hành vi vi phạm nội quy phòng cháy chữa cháy và an toàn điện.",
+        "source": "Sổ tay sinh viên (nội quy KTX)",
+        "validation": {
+          "tfidf_self_match": true,
+          "tfidf_score": 1.0,
+          "doc_evidence": true
+        }
+      }
+    ],
+    "nghien_cuu_khoa_hoc": [
+      {
+        "id": "ICTU_Q193",
+        "category": "nghien_cuu_khoa_hoc",
+        "question": "Sinh viên có thể tham gia nghiên cứu khoa học cùng giảng viên không?",
+        "answer": "Có, sinh viên có thể đăng ký tham gia các đề tài NCKH cấp trường do giảng viên hướng dẫn.",
+        "source": "Sổ tay sinh viên",
+        "validation": {
+          "tfidf_self_match": true,
+          "tfidf_score": 1.0,
+          "doc_evidence": true
+        }
+      },
+      {
+        "id": "ICTU_Q194",
+        "category": "nghien_cuu_khoa_hoc",
+        "question": "Sinh viên tham gia NCKH đạt giải được hưởng lợi ích gì?",
+        "answer": "Được cộng điểm rèn luyện, được khen thưởng (giấy khen, tiền thưởng) và là điểm cộng khi xét học bổng, xét việc làm sau này.",
+        "source": "Điều 4, Quyết định 112; Điều 19, Quyết định 256",
+        "validation": {
+          "tfidf_self_match": true,
+          "tfidf_score": 1.0,
+          "doc_evidence": true
+        }
+      },
+      {
+        "id": "ICTU_Q282",
+        "category": "nghien_cuu_khoa_hoc",
+        "question": "Sinh viên có thể đăng ký thực hiện đề tài NCKH cá nhân không?",
+        "answer": "Có thể, thường là theo nhóm dưới sự hướng dẫn của giảng viên. Sinh viên có ý tưởng có thể trao đổi với giảng viên để đăng ký thực hiện.",
+        "source": "Sổ tay sinh viên",
+        "validation": {
+          "tfidf_self_match": true,
+          "tfidf_score": 1.0,
+          "doc_evidence": true
+        }
+      },
+      {
+        "id": "ICTU_Q313",
+        "category": "nghien_cuu_khoa_hoc",
+        "question": "Sinh viên có thể công bố kết quả nghiên cứu trên tạp chí khoa học của trường không?",
+        "answer": "Có thể, nếu nghiên cứu có chất lượng và được giảng viên hướng dẫn, khoa chuyên môn đánh giá cao, có thể gửi đăng trên Tạp chí Khoa học và Công nghệ - ĐHTN hoặc các tạp chí chuyên ngành.",
+        "source": "Sổ tay sinh viên",
+        "validation": {
+          "tfidf_self_match": true,
+          "tfidf_score": 1.0,
+          "doc_evidence": true
+        }
+      },
+      {
+        "id": "ICTU_Q338",
+        "category": "nghien_cuu_khoa_hoc",
+        "question": "Kinh phí cho đề tài NCKH sinh viên là bao nhiêu?",
+        "answer": "Tùy theo quy mô đề tài và quy định của trường, sinh viên có thể được hỗ trợ kinh phí từ vài triệu đến vài chục triệu đồng.",
+        "source": "Sổ tay sinh viên",
+        "validation": {
+          "tfidf_self_match": true,
+          "tfidf_score": 1.0,
+          "doc_evidence": true
+        }
+      },
+      {
+        "id": "ICTU_Q361",
+        "category": "nghien_cuu_khoa_hoc",
+        "question": "Sinh viên có thể tham gia các hội nghị, hội thảo khoa học do trường tổ chức không?",
+        "answer": "Có, sinh viên được khuyến khích tham gia để học hỏi và trao đổi kiến thức.",
+        "source": "Sổ tay sinh viên",
+        "validation": {
+          "tfidf_self_match": true,
+          "tfidf_score": 1.0,
+          "doc_evidence": true
+        }
+      },
+      {
+        "id": "ICTU_Q383",
+        "category": "nghien_cuu_khoa_hoc",
+        "question": "Sinh viên có thể nhận học bổng thực tập tại các phòng thí nghiệm của trường không?",
+        "answer": "Có thể có các suất hỗ trợ từ đề tài, dự án nghiên cứu của giảng viên.",
+        "source": "Sổ tay sinh viên",
+        "validation": {
+          "tfidf_self_match": true,
+          "tfidf_score": 1.0,
+          "doc_evidence": true
+        }
+      },
+      {
+        "id": "ICTU_Q404",
+        "category": "nghien_cuu_khoa_hoc",
+        "question": "Sinh viên có thể tham gia viết bài cho Tạp chí Khoa học và Công nghệ - ĐHTN không?",
+        "answer": "Có thể, nếu có kết quả nghiên cứu tốt và có sự đồng ý của giảng viên hướng dẫn.",
+        "source": "Sổ tay sinh viên",
+        "validation": {
+          "tfidf_self_match": true,
+          "tfidf_score": 1.0,
+          "doc_evidence": true
+        }
+      },
+      {
+        "id": "ICTU_Q425",
+        "category": "nghien_cuu_khoa_hoc",
+        "question": "Sinh viên có thể tham gia các đề tài nghiên cứu do doanh nghiệp đặt hàng không?",
+        "answer": "Có thể, thông qua sự kết nối của giảng viên và trung tâm nghiên cứu.",
+        "source": "Sổ tay sinh viên",
+        "validation": {
+          "tfidf_self_match": true,
+          "tfidf_score": 1.0,
+          "doc_evidence": true
+        }
+      },
+      {
+        "id": "ICTU_Q446",
+        "category": "nghien_cuu_khoa_hoc",
+        "question": "Sinh viên có thể xin gia hạn thời gian thực hiện đề tài NCKH không?",
+        "answer": "Có thể, nếu có lý do chính đáng và được sự đồng ý của hội đồng khoa học.",
+        "source": "Sổ tay sinh viên",
+        "validation": {
+          "tfidf_self_match": true,
+          "tfidf_score": 1.0,
+          "doc_evidence": true
+        }
+      }
+    ],
+    "quy_che_dao_tao": [
+      {
+        "id": "ICTU_Q046",
+        "category": "quy_che_dao_tao",
+        "question": "Một tín chỉ được quy định tương đương bao nhiêu tiết học lý thuyết?",
+        "answer": "Một tín chỉ bằng 15 tiết học lý thuyết; 30-45 tiết thực hành/thí nghiệm/thảo luận; 45-90 giờ thực tập; 45-60 giờ làm tiểu luận, đồ án.",
+        "source": "Điều 3, Quyết định 43/2007/QĐ-BGDĐT",
+        "validation": {
+          "tfidf_self_match": true,
+          "tfidf_score": 1.0,
+          "doc_evidence": true
+        }
+      },
+      {
+        "id": "ICTU_Q047",
+        "category": "quy_che_dao_tao",
+        "question": "Để tiếp thu tốt một tín chỉ, sinh viên cần dành bao nhiêu giờ chuẩn bị cá nhân?",
+        "answer": "Ít nhất 30 giờ chuẩn bị cá nhân cho mỗi tín chỉ của học phần lý thuyết hoặc thực hành.",
+        "source": "Điều 3, Quyết định 43/2007/QĐ-BGDĐT",
+        "validation": {
+          "tfidf_self_match": true,
+          "tfidf_score": 1.0,
+          "doc_evidence": true
+        }
+      },
+      {
+        "id": "ICTU_Q048",
+        "category": "quy_che_dao_tao",
+        "question": "Quy đổi từ đơn vị học trình sang tín chỉ như thế nào?",
+        "answer": "1,5 đơn vị học trình được quy đổi thành 1 tín chỉ.",
+        "source": "Điều 3, Quyết định 43/2007/QĐ-BGDĐT",
+        "validation": {
+          "tfidf_self_match": true,
+          "tfidf_score": 1.0,
+          "doc_evidence": true
+        }
+      },
+      {
+        "id": "ICTU_Q050",
+        "category": "quy_che_dao_tao",
+        "question": "Một năm học có bao nhiêu học kỳ chính? Thời gian mỗi học kỳ chính?",
+        "answer": "Hai học kỳ chính. Mỗi học kỳ có ít nhất 15 tuần thực học và 3 tuần thi.",
+        "source": "Điều 6, Quyết định 43/2007/QĐ-BGDĐT",
+        "validation": {
+          "tfidf_self_match": true,
+          "tfidf_score": 1.0,
+          "doc_evidence": true
+        }
+      },
+      {
+        "id": "ICTU_Q051",
+        "category": "quy_che_dao_tao",
+        "question": "Học kỳ phụ được tổ chức để làm gì? Thời gian bao lâu?",
+        "answer": "Để sinh viên học lại, học bù hoặc học vượt. Mỗi học kỳ phụ có ít nhất 5 tuần thực học và 1 tuần thi.",
+        "source": "Điều 6, Quyết định 43/2007/QĐ-BGDĐT",
+        "validation": {
+          "tfidf_self_match": true,
+          "tfidf_score": 1.0,
+          "doc_evidence": true
+        }
+      },
+      {
+        "id": "ICTU_Q052",
+        "category": "quy_che_dao_tao",
+        "question": "Thời gian tối đa để hoàn thành chương trình đại học 4 năm là bao lâu?",
+        "answer": "Thời gian thiết kế 4 năm, cộng thêm 4 học kỳ (2 năm), tổng cộng tối đa là 6 năm. Tuy nhiên, không được vượt quá 8 năm (gấp đôi thời gian thiết kế).",
+        "source": "Điều 6, Quyết định 43/2007/QĐ-BGDĐT",
+        "validation": {
+          "tfidf_self_match": true,
+          "tfidf_score": 1.0,
+          "doc_evidence": true
+        }
+      },
+      {
+        "id": "ICTU_Q053",
+        "category": "quy_che_dao_tao",
+        "question": "Những đối tượng nào không bị hạn chế thời gian tối đa hoàn thành chương trình?",
+        "answer": "Các đối tượng được hưởng chính sách ưu tiên theo Quy chế tuyển sinh đại học, cao đẳng hệ chính quy.",
+        "source": "Điều 6, Quyết định 43/2007/QĐ-BGDĐT",
+        "validation": {
+          "tfidf_self_match": true,
+          "tfidf_score": 1.0,
+          "doc_evidence": true
+        }
+      },
+      {
+        "id": "ICTU_Q054",
+        "category": "quy_che_dao_tao",
+        "question": "Khi nhập học, sinh viên được cấp những giấy tờ gì?",
+        "answer": "Thẻ sinh viên, sổ đăng ký học tập, phiếu nhận cố vấn học tập.",
+        "source": "Điều 7, Quyết định 43/2007/QĐ-BGDĐT",
+        "validation": {
+          "tfidf_self_match": true,
+          "tfidf_score": 1.0,
+          "doc_evidence": true
+        }
+      },
+      {
+        "id": "ICTU_Q055",
+        "category": "quy_che_dao_tao",
+        "question": "Lớp học trong đào tạo tín chỉ được tổ chức như thế nào?",
+        "answer": "Lớp học được tổ chức theo từng học phần, dựa trên số lượng sinh viên đăng ký học phần đó trong học kỳ.",
+        "source": "Điều 9, Quyết định 43/2007/QĐ-BGDĐT",
+        "validation": {
+          "tfidf_self_match": true,
+          "tfidf_score": 1.0,
+          "doc_evidence": true
+        }
+      },
+      {
+        "id": "ICTU_Q056",
+        "category": "quy_che_dao_tao",
+        "question": "Có mấy hình thức đăng ký học phần? Đó là những hình thức nào?",
+        "answer": "Ba hình thức: đăng ký sớm (trước 2 tháng), đăng ký bình thường (trước 2 tuần), đăng ký muộn (trong 2 tuần đầu của học kỳ).",
+        "source": "Điều 10, Quyết định 43/2007/QĐ-BGDĐT",
+        "validation": {
+          "tfidf_self_match": true,
+          "tfidf_score": 1.0,
+          "doc_evidence": true
+        }
+      }
+    ],
+    "quy_che_sinh_vien": [
+      {
+        "id": "ICTU_Q079",
+        "category": "quy_che_sinh_vien",
+        "question": "Sinh viên ICTU có những quyền cơ bản gì?",
+        "answer": "Được học tập, rèn luyện trong môi trường an toàn; được phổ biến nội quy; được học theo tiến độ nhanh/chậm, học hai chương trình; được sử dụng cơ sở vật chất; được tham gia ý kiến; được hưởng chế độ chính sách; được cấp văn bằng.",
+        "source": "Điều 5, Quyết định 256/QĐ-ĐHCNTT&TT",
+        "validation": {
+          "tfidf_self_match": true,
+          "tfidf_score": 1.0,
+          "doc_evidence": true
+        }
+      },
+      {
+        "id": "ICTU_Q080",
+        "category": "quy_che_sinh_vien",
+        "question": "Nhiệm vụ của sinh viên ICTU là gì?",
+        "answer": "Chấp hành quy chế; học tập, rèn luyện; tôn trọng viên chức; tham gia BHYT; đóng học phí đúng hạn; bảo vệ tài sản; tham gia hoạt động ngoại khóa; báo cáo tiêu cực.",
+        "source": "Điều 6, Quyết định 256/QĐ-ĐHCNTT&TT",
+        "validation": {
+          "tfidf_self_match": true,
+          "tfidf_score": 1.0,
+          "doc_evidence": true
+        }
+      },
+      {
+        "id": "ICTU_Q081",
+        "category": "quy_che_sinh_vien",
+        "question": "Sinh viên ICTU không được thực hiện những hành vi nào?",
+        "answer": "Không được thực hiện hành vi pháp luật cấm; không xâm phạm lợi ích quốc gia, quyền và lợi ích hợp pháp của người khác; không vi phạm nội quy, quy định của trường.",
+        "source": "Điều 7, Quyết định 256/QĐ-ĐHCNTT&TT",
+        "validation": {
+          "tfidf_self_match": true,
+          "tfidf_score": 1.0,
+          "doc_evidence": true
+        }
+      },
+      {
+        "id": "ICTU_Q082",
+        "category": "quy_che_sinh_vien",
+        "question": "Công tác người học tại ICTU bao gồm những nội dung giáo dục nào?",
+        "answer": "Giáo dục chính trị tư tưởng, đạo đức lối sống, phổ biến pháp luật, bồi dưỡng kỹ năng, giáo dục thẩm mỹ, thể chất, y tế trường học.",
+        "source": "Điều 8, Quyết định 256/QĐ-ĐHCNTT&TT",
+        "validation": {
+          "tfidf_self_match": true,
+          "tfidf_score": 1.0,
+          "doc_evidence": true
+        }
+      },
+      {
+        "id": "ICTU_Q229",
+        "category": "quy_che_sinh_vien",
+        "question": "Sinh viên có trách nhiệm tham gia các hoạt động phòng chống tội phạm, tệ nạn xã hội không?",
+        "answer": "Có, đó là một trong những nhiệm vụ của người học, tham gia phòng, chống tội phạm, tệ nạn xã hội và báo cáo các hành vi vi phạm.",
+        "source": "Điều 6, Quyết định 256/QĐ-ĐHCNTT&TT",
+        "validation": {
+          "tfidf_self_match": true,
+          "tfidf_score": 1.0,
+          "doc_evidence": true
+        }
+      },
+      {
+        "id": "ICTU_Q230",
+        "category": "quy_che_sinh_vien",
+        "question": "Sinh viên có được tham gia góp ý xây dựng các quy định của trường không?",
+        "answer": "Có, sinh viên có quyền được tham gia ý kiến vào quá trình xây dựng nội quy, quy định của trường có liên quan đến người học.",
+        "source": "Điều 5, Quyết định 256/QĐ-ĐHCNTT&TT",
+        "validation": {
+          "tfidf_self_match": true,
+          "tfidf_score": 1.0,
+          "doc_evidence": true
+        }
+      },
+      {
+        "id": "ICTU_Q260",
+        "category": "quy_che_sinh_vien",
+        "question": "Sinh viên có thể đại diện cho trường tham gia các hội thao, hội diễn văn nghệ cấp tỉnh, quốc gia không?",
+        "answer": "Có, nếu có năng khiếu và được tuyển chọn vào đội tuyển của trường.",
+        "source": "Sổ tay sinh viên",
+        "validation": {
+          "tfidf_self_match": true,
+          "tfidf_score": 1.0,
+          "doc_evidence": true
+        }
+      },
+      {
+        "id": "ICTU_Q294",
+        "category": "quy_che_sinh_vien",
+        "question": "Sinh viên có thể tham gia các câu lạc bộ học thuật của trường không?",
+        "answer": "Có, rất nhiều câu lạc bộ học thuật như CLB Lập trình, CLB Tiếng Anh, CLB Kinh tế, v.v. do Đoàn Thanh niên - Hội Sinh viên quản lý.",
+        "source": "Sổ tay sinh viên",
+        "validation": {
+          "tfidf_self_match": true,
+          "tfidf_score": 1.0,
+          "doc_evidence": true
+        }
+      },
+      {
+        "id": "ICTU_Q295",
+        "category": "quy_che_sinh_vien",
+        "question": "Sinh viên có thể tham gia các hoạt động văn nghệ, thể thao do trường tổ chức không?",
+        "answer": "Có, đó là một phần của hoạt động ngoại khóa, sinh viên được khuyến khích tham gia để rèn luyện thể chất, tinh thần và tích lũy điểm rèn luyện.",
+        "source": "Sổ tay sinh viên",
+        "validation": {
+          "tfidf_self_match": true,
+          "tfidf_score": 1.0,
+          "doc_evidence": true
+        }
+      },
+      {
+        "id": "ICTU_Q322",
+        "category": "quy_che_sinh_vien",
+        "question": "Sinh viên có thể làm việc bán thời gian trong thời gian học không? Có cần xin phép nhà trường không?",
+        "answer": "Có thể làm thêm, nhưng không được để ảnh hưởng đến việc học tập. Không cần xin phép, nhưng nếu làm thêm trong ký túc xá hoặc các dịch vụ của trường thì phải theo quy định.",
+        "source": "Sổ tay sinh viên",
+        "validation": {
+          "tfidf_self_match": true,
+          "tfidf_score": 1.0,
+          "doc_evidence": true
+        }
+      }
+    ],
+    "sinh_vien_quoc_te": [
+      {
+        "id": "ICTU_Q220",
+        "category": "sinh_vien_quoc_te",
+        "question": "Lưu học sinh Lào đang học tại ICTU có được ở ký túc xá không?",
+        "answer": "Có, lưu học sinh quốc tế (Lào, các nước) được bố trí ở trong khu nội trú dành riêng do trường quản lý.",
+        "source": "Điều 6, Quyết định 256/QĐ-ĐHCNTT&TT",
+        "validation": {
+          "tfidf_self_match": true,
+          "tfidf_score": 1.0,
+          "doc_evidence": true
+        }
+      },
+      {
+        "id": "ICTU_Q221",
+        "category": "sinh_vien_quoc_te",
+        "question": "Lưu học sinh quốc tế có phải tham gia bảo hiểm y tế tại Việt Nam không?",
+        "answer": "Có, lưu học sinh phải tham gia bảo hiểm y tế và bảo hiểm thân thể theo quy định của Nhà trường và Nhà nước Việt Nam.",
+        "source": "Điều 6, Quyết định 256/QĐ-ĐHCNTT&TT",
+        "validation": {
+          "tfidf_self_match": true,
+          "tfidf_score": 1.0,
+          "doc_evidence": true
+        }
+      }
+    ],
+    "the_sinh_vien": [
+      {
+        "id": "ICTU_Q092",
+        "category": "the_sinh_vien",
+        "question": "Thẻ sinh viên ICTU được cấp khi nào và bởi ai?",
+        "answer": "Sau khi hoàn thành thủ tục nhập học và được phân lớp, Phòng CT-HSSV sẽ cấp thẻ dùng cho cả khóa học.",
+        "source": "Quy trình cấp phát và sử dụng thẻ, Quyết định 1146",
+        "validation": {
+          "tfidf_self_match": true,
+          "tfidf_score": 1.0,
+          "doc_evidence": true
+        }
+      },
+      {
+        "id": "ICTU_Q093",
+        "category": "the_sinh_vien",
+        "question": "Thời gian nhận thẻ sinh viên hàng năm là khi nào?",
+        "answer": "Từ ngày 05/10 đến 05/11 hàng năm.",
+        "source": "Quy trình cấp phát và sử dụng thẻ, Quyết định 1146",
+        "validation": {
+          "tfidf_self_match": true,
+          "tfidf_score": 1.0,
+          "doc_evidence": true
+        }
+      },
+      {
+        "id": "ICTU_Q094",
+        "category": "the_sinh_vien",
+        "question": "Thẻ sinh viên bị mất hoặc hỏng thì phải làm thế nào?",
+        "answer": "Làm đơn xin cấp lại, kèm ảnh 3x4 cm và lệ phí, nộp tại Phòng CT-HSSV. Được cấp giấy chứng nhận tạm thời trong thời gian chờ làm lại thẻ.",
+        "source": "Quy trình cấp phát và sử dụng thẻ, Quyết định 1146",
+        "validation": {
+          "tfidf_self_match": true,
+          "tfidf_score": 1.0,
+          "doc_evidence": true
+        }
+      },
+      {
+        "id": "ICTU_Q095",
+        "category": "the_sinh_vien",
+        "question": "Quy định về việc đeo thẻ sinh viên?",
+        "answer": "Đeo thẻ bắt buộc, đựng trong túi chuyên dụng có dây đeo qua cổ. Không đeo thẻ sẽ không được vào lớp học, thư viện, phòng thực hành.",
+        "source": "Quy trình cấp phát và sử dụng thẻ, Quyết định 1146",
+        "validation": {
+          "tfidf_self_match": true,
+          "tfidf_score": 1.0,
+          "doc_evidence": true
+        }
+      },
+      {
+        "id": "ICTU_Q096",
+        "category": "the_sinh_vien",
+        "question": "Sinh viên không đeo thẻ bị xử lý thế nào?",
+        "answer": "Bị nhắc nhở và trừ 05 điểm rèn luyện cho mỗi lần vi phạm.",
+        "source": "Quy trình cấp phát và sử dụng thẻ, Quyết định 1146",
+        "validation": {
+          "tfidf_self_match": true,
+          "tfidf_score": 1.0,
+          "doc_evidence": true
+        }
+      },
+      {
+        "id": "ICTU_Q097",
+        "category": "the_sinh_vien",
+        "question": "Hành vi cho mượn thẻ hoặc mượn thẻ của người khác bị xử lý ra sao?",
+        "answer": "Lần 1: khiển trách; Lần 2: cảnh cáo; Lần 3: đình chỉ học tập 1 năm.",
+        "source": "Quy trình cấp phát và sử dụng thẻ, Quyết định 1146",
+        "validation": {
+          "tfidf_self_match": true,
+          "tfidf_score": 1.0,
+          "doc_evidence": true
+        }
+      },
+      {
+        "id": "ICTU_Q098",
+        "category": "the_sinh_vien",
+        "question": "Khi nào sinh viên phải nộp lại thẻ sinh viên?",
+        "answer": "Khi tốt nghiệp ra trường, chuyển trường, hoặc bị ngừng học, thôi học.",
+        "source": "Quy trình cấp phát và sử dụng thẻ, Quyết định 1146",
+        "validation": {
+          "tfidf_self_match": true,
+          "tfidf_score": 1.0,
+          "doc_evidence": true
+        }
+      },
+      {
+        "id": "ICTU_Q245",
+        "category": "the_sinh_vien",
+        "question": "Thẻ sinh viên có giá trị sử dụng đến khi nào?",
+        "answer": "Thẻ sinh viên có giá trị đến hết thời hạn được ghi trên mặt trước của thẻ. Hết thời gian này, thẻ không còn giá trị.",
+        "source": "Quy trình cấp phát và sử dụng thẻ, Quyết định 1146",
+        "validation": {
+          "tfidf_self_match": true,
+          "tfidf_score": 1.0,
+          "doc_evidence": true
+        }
+      },
+      {
+        "id": "ICTU_Q246",
+        "category": "the_sinh_vien",
+        "question": "Sinh viên có được sử dụng thẻ sinh viên để vay tiền, cầm đồ không?",
+        "answer": "Không. Đó là hành vi vi phạm, nếu bị phát hiện sẽ bị xử lý kỷ luật từ khiển trách đến đình chỉ học tập.",
+        "source": "Quy trình cấp phát và sử dụng thẻ, Quyết định 1146",
+        "validation": {
+          "tfidf_self_match": true,
+          "tfidf_score": 1.0,
+          "doc_evidence": true
+        }
+      }
+    ],
+    "thi_cu": [
+      {
+        "id": "ICTU_Q207",
+        "category": "thi_cu",
+        "question": "Khi nào sinh viên bị đình chỉ thi?",
+        "answer": "Khi vi phạm quy chế thi ở mức độ nghiêm trọng như mang tài liệu cấm vào phòng thi, trao đổi bài, sử dụng điện thoại, v.v.",
+        "source": "Điều 29, Quyết định 43/2007/QĐ-BGDĐT",
+        "validation": {
+          "tfidf_self_match": true,
+          "tfidf_score": 1.0,
+          "doc_evidence": true
+        }
+      },
+      {
+        "id": "ICTU_Q208",
+        "category": "thi_cu",
+        "question": "Sinh viên vắng mặt trong kỳ thi kết thúc học phần không có lý do chính đáng bị xử lý thế nào?",
+        "answer": "Coi như đã dự thi một lần và phải nhận điểm 0 ở kỳ thi chính.",
+        "source": "Điều 21, Quyết định 43/2007/QĐ-BGDĐT",
+        "validation": {
+          "tfidf_self_match": true,
+          "tfidf_score": 1.0,
+          "doc_evidence": true
+        }
+      },
+      {
+        "id": "ICTU_Q209",
+        "category": "thi_cu",
+        "question": "Sinh viên vắng thi có lý do chính đáng (ốm có giấy tờ) thì được giải quyết thế nào?",
+        "answer": "Được dự thi ở kỳ thi phụ ngay sau đó (nếu có) và điểm thi được coi là điểm thi lần đầu.",
+        "source": "Điều 21, Quyết định 43/2007/QĐ-BGDĐT",
+        "validation": {
+          "tfidf_self_match": true,
+          "tfidf_score": 1.0,
+          "doc_evidence": true
+        }
+      },
+      {
+        "id": "ICTU_Q262",
+        "category": "thi_cu",
+        "question": "Sinh viên có thể xin hoãn thi kết thúc học phần không? Thủ tục thế nào?",
+        "answer": "Có thể xin hoãn thi nếu có lý do chính đáng (ốm, tai nạn). Cần làm đơn xin hoãn thi gửi trưởng khoa kèm giấy tờ chứng minh.",
+        "source": "Điều 21, Quyết định 43/2007/QĐ-BGDĐT",
+        "validation": {
+          "tfidf_self_match": true,
+          "tfidf_score": 1.0,
+          "doc_evidence": true
+        }
+      },
+      {
+        "id": "ICTU_Q287",
+        "category": "thi_cu",
+        "question": "Sinh viên có thể thi cải thiện điểm cho một học phần nhiều lần không?",
+        "answer": "Có thể đăng ký học lại nhiều lần cho đến khi đạt điểm mong muốn, nhưng phải đóng học phí học lại theo quy định.",
+        "source": "Điều 12, Quyết định 43/2007/QĐ-BGDĐT",
+        "validation": {
+          "tfidf_self_match": true,
+          "tfidf_score": 1.0,
+          "doc_evidence": true
+        }
+      },
+      {
+        "id": "ICTU_Q317",
+        "category": "thi_cu",
+        "question": "Sinh viên có thể sử dụng tài liệu khi làm bài thi trắc nghiệm không?",
+        "answer": "Không. Tuyệt đối không được mang tài liệu, điện thoại, thiết bị thu phát thông tin vào phòng thi.",
+        "source": "Quy chế thi",
+        "validation": {
+          "tfidf_self_match": true,
+          "tfidf_score": 1.0,
+          "doc_evidence": true
+        }
+      },
+      {
+        "id": "ICTU_Q342",
+        "category": "thi_cu",
+        "question": "Sinh viên có thể xin đặc cách xét tốt nghiệp nếu không thể thi kết thúc học phần vì lý do sức khỏe?",
+        "answer": "Không, vẫn phải hoàn thành các học phần. Có thể xin hoãn thi và thi sau khi khỏi bệnh.",
+        "source": "Điều 21, Quyết định 43/2007/QĐ-BGDĐT",
+        "validation": {
+          "tfidf_self_match": true,
+          "tfidf_score": 1.0,
+          "doc_evidence": true
+        }
+      },
+      {
+        "id": "ICTU_Q365",
+        "category": "thi_cu",
+        "question": "Sinh viên có thể đăng ký thi kết thúc học phần sớm hơn lịch chung không?",
+        "answer": "Không, lịch thi được xếp chung cho toàn trường. Việc thi sớm chỉ áp dụng cho một số trường hợp đặc biệt (học vượt) theo quy định.",
+        "source": "Quy chế đào tạo",
+        "validation": {
+          "tfidf_self_match": true,
+          "tfidf_score": 1.0,
+          "doc_evidence": true
+        }
+      },
+      {
+        "id": "ICTU_Q387",
+        "category": "thi_cu",
+        "question": "Sinh viên có thể xem lại bài thi sau khi có điểm không?",
+        "answer": "Có thể xin phúc tra bài thi theo quy định, nhưng không phải để xem trực tiếp mà để kiểm tra lại quá trình chấm.",
+        "source": "Quy chế đào tạo",
+        "validation": {
+          "tfidf_self_match": true,
+          "tfidf_score": 1.0,
+          "doc_evidence": true
+        }
+      },
+      {
+        "id": "ICTU_Q408",
+        "category": "thi_cu",
+        "question": "Sinh viên có thể xin gia hạn thời gian thi kết thúc học phần không?",
+        "answer": "Không, thời gian thi được tổ chức theo lịch chung. Nếu vắng thi có lý do chính đáng, được dự thi ở kỳ phụ.",
+        "source": "Điều 21, Quyết định 43/2007/QĐ-BGDĐT",
+        "validation": {
+          "tfidf_self_match": true,
+          "tfidf_score": 1.0,
+          "doc_evidence": true
+        }
+      }
+    ],
+    "thong_tin_chung": [
+      {
+        "id": "ICTU_Q002",
+        "category": "thong_tin_chung",
+        "question": "Tầm nhìn của ICTU đến năm 2030 là gì?",
+        "answer": "Trở thành trường đại học ứng dụng, đa ngành, đa lĩnh vực, trên nền tảng số hàng đầu trong hệ thống giáo dục đại học Việt Nam.",
+        "source": "Sổ tay sinh viên 2025-2026, Phần I",
+        "validation": {
+          "tfidf_self_match": true,
+          "tfidf_score": 1.0,
+          "doc_evidence": true
+        }
+      },
+      {
+        "id": "ICTU_Q003",
+        "category": "thong_tin_chung",
+        "question": "Sứ mạng của ICTU là gì?",
+        "answer": "Đào tạo nguồn nhân lực trình độ đại học, sau đại học; bồi dưỡng ngắn hạn; nghiên cứu khoa học và chuyển giao công nghệ đáp ứng nhu cầu thị trường lao động, phục vụ phát triển kinh tế - xã hội.",
+        "source": "Sổ tay sinh viên 2025-2026, Phần I",
+        "validation": {
+          "tfidf_self_match": true,
+          "tfidf_score": 1.0,
+          "doc_evidence": true
+        }
+      },
+      {
+        "id": "ICTU_Q004",
+        "category": "thong_tin_chung",
+        "question": "Giá trị cốt lõi của ICTU là gì?",
+        "answer": "Đoàn kết - Tận tâm - Sáng tạo - Thực tiễn.",
+        "source": "Sổ tay sinh viên 2025-2026, Phần I",
+        "validation": {
+          "tfidf_self_match": true,
+          "tfidf_score": 1.0,
+          "doc_evidence": true
+        }
+      },
+      {
+        "id": "ICTU_Q005",
+        "category": "thong_tin_chung",
+        "question": "Triết lý giáo dục của ICTU là gì?",
+        "answer": "Giáo dục toàn diện lấy người học làm trung tâm; đào tạo hình mẫu công dân số; kiến tạo tương lai, nuôi dưỡng lòng nhân ái.",
+        "source": "Sổ tay sinh viên 2025-2026, Phần I",
+        "validation": {
+          "tfidf_self_match": true,
+          "tfidf_score": 1.0,
+          "doc_evidence": true
+        }
+      },
+      {
+        "id": "ICTU_Q006",
+        "category": "thong_tin_chung",
+        "question": "Địa chỉ và số điện thoại liên hệ của ICTU?",
+        "answer": "Phường Quyết Thắng, TP Thái Nguyên, tỉnh Thái Nguyên. Điện thoại: 02083 846 254, Fax: 02083 846 237, Email: contact@ictu.edu.vn, Website: www.ictu.edu.vn.",
+        "source": "Sổ tay sinh viên 2025-2026, Phần I",
+        "validation": {
+          "tfidf_self_match": true,
+          "tfidf_score": 1.0,
+          "doc_evidence": true
+        }
+      },
+      {
+        "id": "ICTU_Q007",
+        "category": "thong_tin_chung",
+        "question": "Hiệu trưởng hiện nay của ICTU là ai?",
+        "answer": "PGS.TS. Phùng Trung Nghĩa.",
+        "source": "Sổ tay sinh viên 2025-2026, Phần I",
+        "validation": {
+          "tfidf_self_match": true,
+          "tfidf_score": 1.0,
+          "doc_evidence": true
+        }
+      },
+      {
+        "id": "ICTU_Q008",
+        "category": "thong_tin_chung",
+        "question": "Các Phó Hiệu trưởng ICTU gồm những ai?",
+        "answer": "TS. Vũ Đức Thái, TS. Đỗ Đình Cường, TS. Nguyễn Duy Minh.",
+        "source": "Sổ tay sinh viên 2025-2026, Phần I",
+        "validation": {
+          "tfidf_self_match": true,
+          "tfidf_score": 1.0,
+          "doc_evidence": true
+        }
+      },
+      {
+        "id": "ICTU_Q009",
+        "category": "thong_tin_chung",
+        "question": "Trưởng phòng Đào tạo ICTU là ai?",
+        "answer": "TS. Ngô Mạnh Tưởng, Phó Trưởng phòng ThS. Nguyễn Ngọc Tuấn.",
+        "source": "Sổ tay sinh viên 2025-2026, Phần I",
+        "validation": {
+          "tfidf_self_match": true,
+          "tfidf_score": 1.0,
+          "doc_evidence": true
+        }
+      },
+      {
+        "id": "ICTU_Q010",
+        "category": "thong_tin_chung",
+        "question": "Trưởng phòng Công tác Học sinh, sinh viên ICTU là ai?",
+        "answer": "TS. Bùi Anh Tú, các Phó trưởng phòng: ThS. Lê Anh Tú, ThS. Dương Thị Thanh Tâm.",
+        "source": "Sổ tay sinh viên 2025-2026, Phần I",
+        "validation": {
+          "tfidf_self_match": true,
+          "tfidf_score": 1.0,
+          "doc_evidence": true
+        }
+      },
+      {
+        "id": "ICTU_Q011",
+        "category": "thong_tin_chung",
+        "question": "Khoa Công nghệ Thông tin ICTU do ai làm trưởng khoa?",
+        "answer": "TS. Quách Xuân Trưởng, Phó trưởng khoa: TS. Nguyễn Đức Bình, TS. Nguyễn Toàn Thắng.",
+        "source": "Sổ tay sinh viên 2025-2026, Phần I",
+        "validation": {
+          "tfidf_self_match": true,
+          "tfidf_score": 1.0,
+          "doc_evidence": true
+        }
+      }
+    ],
+    "thu_tuc_hanh_chinh": [
+      {
+        "id": "ICTU_Q168",
+        "category": "thu_tuc_hanh_chinh",
+        "question": "Sinh viên muốn xin cấp lại thẻ sinh viên cần chuẩn bị những gì?",
+        "answer": "Đơn xin cấp lại thẻ, 01 ảnh 3x4 cm, lệ phí theo quy định, nộp tại Phòng CT-HSSV.",
+        "source": "Quy trình cấp phát và sử dụng thẻ, Quyết định 1146",
+        "validation": {
+          "tfidf_self_match": true,
+          "tfidf_score": 1.0,
+          "doc_evidence": true
+        }
+      },
+      {
+        "id": "ICTU_Q169",
+        "category": "thu_tuc_hanh_chinh",
+        "question": "Thủ tục xin chuyển ngành học?",
+        "answer": "Sinh viên làm đơn xin chuyển ngành, nộp về khoa quản lý ngành đang học và khoa xin chuyển đến, trình Hiệu trưởng xem xét quyết định dựa trên điều kiện và chỉ tiêu.",
+        "source": "Quy chế đào tạo",
+        "validation": {
+          "tfidf_self_match": true,
+          "tfidf_score": 1.0,
+          "doc_evidence": true
+        }
+      },
+      {
+        "id": "ICTU_Q170",
+        "category": "thu_tuc_hanh_chinh",
+        "question": "Sinh viên muốn xin phúc tra bài thi thì làm thế nào?",
+        "answer": "Nộp đơn xin phúc tra theo mẫu tại Phòng Khảo thí và Đảm bảo chất lượng giáo dục trong thời hạn quy định sau khi có điểm.",
+        "source": "Quy chế đào tạo",
+        "validation": {
+          "tfidf_self_match": true,
+          "tfidf_score": 1.0,
+          "doc_evidence": true
+        }
+      },
+      {
+        "id": "ICTU_Q171",
+        "category": "thu_tuc_hanh_chinh",
+        "question": "Sinh viên muốn xin giấy chứng nhận tốt nghiệp tạm thời thì đến đâu?",
+        "answer": "Đến Phòng Đào tạo để làm thủ tục cấp giấy chứng nhận tốt nghiệp tạm thời trong khi chờ bằng chính thức.",
+        "source": "Quy chế đào tạo",
+        "validation": {
+          "tfidf_self_match": true,
+          "tfidf_score": 1.0,
+          "doc_evidence": true
+        }
+      },
+      {
+        "id": "ICTU_Q172",
+        "category": "thu_tuc_hanh_chinh",
+        "question": "Sinh viên muốn xin cấp bảng điểm bằng tiếng Anh cần liên hệ đâu?",
+        "answer": "Liên hệ Phòng Đào tạo để được hướng dẫn và nộp lệ phí (nếu có).",
+        "source": "Quy chế đào tạo",
+        "validation": {
+          "tfidf_self_match": true,
+          "tfidf_score": 1.0,
+          "doc_evidence": true
+        }
+      },
+      {
+        "id": "ICTU_Q173",
+        "category": "thu_tuc_hanh_chinh",
+        "question": "Thời hạn nộp hồ sơ xin miễn giảm học phí hàng năm là khi nào?",
+        "answer": "Trong vòng 45 ngày làm việc kể từ ngày khai giảng năm học.",
+        "source": "Điều 19, Nghị định 81/2021/NĐ-CP",
+        "validation": {
+          "tfidf_self_match": true,
+          "tfidf_score": 1.0,
+          "doc_evidence": true
+        }
+      },
+      {
+        "id": "ICTU_Q174",
+        "category": "thu_tuc_hanh_chinh",
+        "question": "Sinh viên muốn xin nghỉ học tạm thời vì lý do sức khỏe cần giấy tờ gì?",
+        "answer": "Đơn xin nghỉ học (có ý kiến của cố vấn học tập/khoa) kèm giấy xác nhận của cơ sở y tế (bệnh viện, trạm y tế).",
+        "source": "Điều 15, Quyết định 43/2007/QĐ-BGDĐT",
+        "validation": {
+          "tfidf_self_match": true,
+          "tfidf_score": 1.0,
+          "doc_evidence": true
+        }
+      },
+      {
+        "id": "ICTU_Q175",
+        "category": "thu_tuc_hanh_chinh",
+        "question": "Sau thời gian bảo lưu, muốn trở lại học thì cần làm gì?",
+        "answer": "Viết đơn xin học lại gửi Hiệu trưởng ít nhất một tuần trước khi bắt đầu học kỳ mới.",
+        "source": "Điều 15, Quyết định 43/2007/QĐ-BGDĐT",
+        "validation": {
+          "tfidf_self_match": true,
+          "tfidf_score": 1.0,
+          "doc_evidence": true
+        }
+      },
+      {
+        "id": "ICTU_Q176",
+        "category": "thu_tuc_hanh_chinh",
+        "question": "Hồ sơ xin chuyển trường gồm những gì?",
+        "answer": "Đơn xin chuyển trường, học bạ, bảng điểm, lý lịch sinh viên, giấy tờ chứng minh lý do chuyển trường (nếu có) theo quy định của trường đi và trường đến.",
+        "source": "Điều 18, Quyết định 43/2007/QĐ-BGDĐT",
+        "validation": {
+          "tfidf_self_match": true,
+          "tfidf_score": 1.0,
+          "doc_evidence": true
+        }
+      },
+      {
+        "id": "ICTU_Q177",
+        "category": "thu_tuc_hanh_chinh",
+        "question": "Sinh viên muốn tham gia đội tuyển học sinh giỏi cần đăng ký với ai?",
+        "answer": "Với giảng viên bộ môn hoặc bộ môn chuyên ngành, khoa quản lý.",
+        "source": "Sổ tay sinh viên",
+        "validation": {
+          "tfidf_self_match": true,
+          "tfidf_score": 1.0,
+          "doc_evidence": true
+        }
+      }
+    ],
+    "thuc_tap": [
+      {
+        "id": "ICTU_Q195",
+        "category": "thuc_tap",
+        "question": "Sinh viên có thể xin giới thiệu địa điểm thực tập tại doanh nghiệp qua kênh nào?",
+        "answer": "Qua khoa chuyên môn, giảng viên hướng dẫn, hoặc Trung tâm Truyền thông, Tuyển sinh và Hỗ trợ sinh viên.",
+        "source": "Sổ tay sinh viên",
+        "validation": {
+          "tfidf_self_match": true,
+          "tfidf_score": 1.0,
+          "doc_evidence": true
+        }
+      },
+      {
+        "id": "ICTU_Q196",
+        "category": "thuc_tap",
+        "question": "Thực tập tốt nghiệp có phải là học phần bắt buộc không?",
+        "answer": "Tùy theo chương trình đào tạo cụ thể của từng ngành, nhưng hầu hết các ngành đều có học phần thực tập tốt nghiệp hoặc thực tập cuối khóa.",
+        "source": "Quy chế đào tạo",
+        "validation": {
+          "tfidf_self_match": true,
+          "tfidf_score": 1.0,
+          "doc_evidence": true
+        }
+      },
+      {
+        "id": "ICTU_Q283",
+        "category": "thuc_tap",
+        "question": "Thời gian thực tập tốt nghiệp thường kéo dài bao lâu?",
+        "answer": "Tùy theo chương trình đào tạo, thường từ 8 đến 12 tuần.",
+        "source": "Quy chế đào tạo",
+        "validation": {
+          "tfidf_self_match": true,
+          "tfidf_score": 1.0,
+          "doc_evidence": true
+        }
+      },
+      {
+        "id": "ICTU_Q314",
+        "category": "thuc_tap",
+        "question": "Sinh viên có thể tự liên hệ nơi thực tập nếu có mối quan hệ cá nhân không?",
+        "answer": "Có, nhưng cần được sự đồng ý của khoa và giảng viên hướng dẫn về việc nơi thực tập đó phù hợp với chuyên ngành và đảm bảo yêu cầu của chương trình.",
+        "source": "Quy chế đào tạo",
+        "validation": {
+          "tfidf_self_match": true,
+          "tfidf_score": 1.0,
+          "doc_evidence": true
+        }
+      },
+      {
+        "id": "ICTU_Q339",
+        "category": "thuc_tap",
+        "question": "Sinh viên có thể thực tập tại doanh nghiệp vào thời gian nào?",
+        "answer": "Thường vào học kỳ cuối của chương trình đào tạo, nhưng cũng có thể thực tập sớm hơn nếu chương trình cho phép và doanh nghiệp đồng ý.",
+        "source": "Quy chế đào tạo",
+        "validation": {
+          "tfidf_self_match": true,
+          "tfidf_score": 1.0,
+          "doc_evidence": true
+        }
+      },
+      {
+        "id": "ICTU_Q362",
+        "category": "thuc_tap",
+        "question": "Sinh viên có thể thực tập tại nước ngoài thông qua các chương trình hợp tác của trường không?",
+        "answer": "Có, nếu có các chương trình hợp tác với doanh nghiệp hoặc trường đối tác nước ngoài.",
+        "source": "Sổ tay sinh viên",
+        "validation": {
+          "tfidf_self_match": true,
+          "tfidf_score": 1.0,
+          "doc_evidence": true
+        }
+      },
+      {
+        "id": "ICTU_Q384",
+        "category": "thuc_tap",
+        "question": "Sinh viên có thể bảo vệ báo cáo thực tập trước hội đồng không?",
+        "answer": "Tùy theo yêu cầu của khoa, có thể bảo vệ trước hội đồng hoặc nộp báo cáo cho giảng viên hướng dẫn chấm.",
+        "source": "Quy chế đào tạo",
+        "validation": {
+          "tfidf_self_match": true,
+          "tfidf_score": 1.0,
+          "doc_evidence": true
+        }
+      },
+      {
+        "id": "ICTU_Q405",
+        "category": "thuc_tap",
+        "question": "Sinh viên có thể thực tập tại các phòng thí nghiệm của trường không?",
+        "answer": "Có, nếu có đề tài hoặc được giảng viên giao nhiệm vụ nghiên cứu.",
+        "source": "Quy chế đào tạo",
+        "validation": {
+          "tfidf_self_match": true,
+          "tfidf_score": 1.0,
+          "doc_evidence": true
+        }
+      },
+      {
+        "id": "ICTU_Q426",
+        "category": "thuc_tap",
+        "question": "Sinh viên có thể thực tập tại nước ngoài trong khuôn khổ chương trình OJT (On-the-Job Training) không?",
+        "answer": "Có, nếu có chương trình hợp tác với các doanh nghiệp nước ngoài.",
+        "source": "Sổ tay sinh viên",
+        "validation": {
+          "tfidf_self_match": true,
+          "tfidf_score": 1.0,
+          "doc_evidence": true
+        }
+      },
+      {
+        "id": "ICTU_Q447",
+        "category": "thuc_tap",
+        "question": "Sinh viên có thể thực tập tại nước ngoài theo chương trình hợp tác của khoa không?",
+        "answer": "Có, nếu khoa có liên kết với các trường đối tác hoặc doanh nghiệp nước ngoài.",
+        "source": "Sổ tay sinh viên",
+        "validation": {
+          "tfidf_self_match": true,
+          "tfidf_score": 1.0,
+          "doc_evidence": true
+        }
+      }
+    ],
+    "tuyen_sinh": [
+      {
+        "id": "ICTU_Q021",
+        "category": "tuyen_sinh",
+        "question": "Điều kiện cơ bản để dự tuyển đại học chính quy tại ICTU năm 2025 là gì?",
+        "answer": "Thí sinh đã tốt nghiệp THPT (hoặc tương đương) và có đủ sức khỏe để học tập.",
+        "source": "Thông tin tuyển sinh 2025",
+        "validation": {
+          "tfidf_self_match": true,
+          "tfidf_score": 1.0,
+          "doc_evidence": true
+        }
+      },
+      {
+        "id": "ICTU_Q022",
+        "category": "tuyen_sinh",
+        "question": "ICTU sử dụng những phương thức xét tuyển đại học chính quy nào trong năm 2025?",
+        "answer": "Phương thức 100 (điểm thi tốt nghiệp THPT), phương thức 200 (học bạ THPT), phương thức 416 (điểm thi đánh giá đầu vào V-SAT), phương thức 301 (xét tuyển thẳng).",
+        "source": "Thông tin tuyển sinh 2025",
+        "validation": {
+          "tfidf_self_match": true,
+          "tfidf_score": 1.0,
+          "doc_evidence": true
+        }
+      },
+      {
+        "id": "ICTU_Q023",
+        "category": "tuyen_sinh",
+        "question": "Tổ hợp xét tuyển ngành Ngôn ngữ Anh (Tiếng Anh truyền thông) năm 2025?",
+        "answer": "Toán + Tiếng Anh + Môn 3 (Môn 3 là bất kỳ môn nào trong danh sách: Ngữ văn, Lý, Hóa, Sinh, Sử, Địa, GD kinh tế và pháp luật, GDCD, Tin học, Công nghệ nông nghiệp, Công nghệ công nghiệp).",
+        "source": "Thông tin tuyển sinh 2025",
+        "validation": {
+          "tfidf_self_match": true,
+          "tfidf_score": 1.0,
+          "doc_evidence": true
+        }
+      },
+      {
+        "id": "ICTU_Q024",
+        "category": "tuyen_sinh",
+        "question": "Tổ hợp xét tuyển đặc thù cho ngành Vi mạch bán dẫn năm 2025 là gì?",
+        "answer": "Toán + Môn 2 + Môn 3, trong đó Môn 2 bắt buộc là Lý, Hóa hoặc Sinh; Môn 3 là bất kỳ môn nào khác không trùng Môn 2. Phương thức V-SAT dùng tổ hợp A00 (Toán, Lý, Hóa).",
+        "source": "Thông tin tuyển sinh 2025",
+        "validation": {
+          "tfidf_self_match": true,
+          "tfidf_score": 1.0,
+          "doc_evidence": true
+        }
+      },
+      {
+        "id": "ICTU_Q025",
+        "category": "tuyen_sinh",
+        "question": "Ngưỡng đảm bảo chất lượng đầu vào xét học bạ tại ICTU là bao nhiêu?",
+        "answer": "Tổng điểm tổng kết cuối năm của 3 môn lớp 12 theo tổ hợp xét tuyển, cộng điểm ưu tiên (nếu có), đạt từ 18,0 trở lên.",
+        "source": "Thông tin tuyển sinh 2025",
+        "validation": {
+          "tfidf_self_match": true,
+          "tfidf_score": 1.0,
+          "doc_evidence": true
+        }
+      },
+      {
+        "id": "ICTU_Q026",
+        "category": "tuyen_sinh",
+        "question": "Cách tính điểm xét tuyển theo học bạ tại ICTU?",
+        "answer": "Điểm xét = (Điểm tổng kết cuối năm lớp 12 môn 1 + môn 2 + môn 3) + Điểm ưu tiên (nếu có).",
+        "source": "Thông tin tuyển sinh 2025",
+        "validation": {
+          "tfidf_self_match": true,
+          "tfidf_score": 1.0,
+          "doc_evidence": true
+        }
+      },
+      {
+        "id": "ICTU_Q027",
+        "category": "tuyen_sinh",
+        "question": "Đối tượng nào được xét tuyển thẳng vào ICTU?",
+        "answer": "Anh hùng lao động, Anh hùng lực lượng vũ trang, Chiến sĩ thi đua toàn quốc; học sinh đạt giải trong kỳ thi chọn HSG quốc gia, quốc tế; vận động viên đạt giải chính thức tại các giải thể thao quốc gia, quốc tế; thí sinh là người khuyết tật đặc biệt nặng; người dân tộc thiểu số rất ít người...",
+        "source": "Thông tin tuyển sinh 2025",
+        "validation": {
+          "tfidf_self_match": true,
+          "tfidf_score": 1.0,
+          "doc_evidence": true
+        }
+      },
+      {
+        "id": "ICTU_Q028",
+        "category": "tuyen_sinh",
+        "question": "Thời gian đăng ký xét tuyển đợt 1 theo kế hoạch chung của Bộ GDĐT năm 2025?",
+        "answer": "Từ ngày 16/7 đến 17h00 ngày 28/7/2025.",
+        "source": "Thông tin tuyển sinh 2025",
+        "validation": {
+          "tfidf_self_match": true,
+          "tfidf_score": 1.0,
+          "doc_evidence": true
+        }
+      },
+      {
+        "id": "ICTU_Q029",
+        "category": "tuyen_sinh",
+        "question": "Hình thức đăng ký xét tuyển đợt 1 năm 2025?",
+        "answer": "Thí sinh đăng ký trực tuyến trên Cổng thông tin tuyển sinh của Bộ GDĐT hoặc Cổng dịch vụ công quốc gia.",
+        "source": "Thông tin tuyển sinh 2025",
+        "validation": {
+          "tfidf_self_match": true,
+          "tfidf_score": 1.0,
+          "doc_evidence": true
+        }
+      },
+      {
+        "id": "ICTU_Q030",
+        "category": "tuyen_sinh",
+        "question": "ICTU có tổ chức xét tuyển các đợt bổ sung không? Lịch dự kiến?",
+        "answer": "Có. Dự kiến đợt 1 từ 01/9 đến 30/9/2025, đợt 2 từ 01/10 đến tháng 12/2025.",
+        "source": "Thông tin tuyển sinh 2025",
+        "validation": {
+          "tfidf_self_match": true,
+          "tfidf_score": 1.0,
+          "doc_evidence": true
+        }
+      }
+    ],
+    "tuyen_sinh_lien_thong": [
+      {
+        "id": "ICTU_Q041",
+        "category": "tuyen_sinh_lien_thong",
+        "question": "Điều kiện xét tuyển liên thông từ trung cấp lên đại học tại ICTU?",
+        "answer": "Đã tốt nghiệp THPT và tốt nghiệp trung cấp. Xét tuyển dựa vào kết quả học tập bậc trung cấp (≥2.0/4 hoặc ≥5.0/10) hoặc điểm học bạ THPT (tổng 3 môn lớp 12 ≥15.0).",
+        "source": "Thông tin tuyển sinh 2025, phần liên thông",
+        "validation": {
+          "tfidf_self_match": true,
+          "tfidf_score": 1.0,
+          "doc_evidence": true
+        }
+      },
+      {
+        "id": "ICTU_Q042",
+        "category": "tuyen_sinh_lien_thong",
+        "question": "Chỉ tiêu liên thông từ trung cấp lên đại học ngành Công nghệ thông tin năm 2025?",
+        "answer": "10 chỉ tiêu.",
+        "source": "Thông tin tuyển sinh 2025, phần liên thông",
+        "validation": {
+          "tfidf_self_match": true,
+          "tfidf_score": 1.0,
+          "doc_evidence": true
+        }
+      },
+      {
+        "id": "ICTU_Q043",
+        "category": "tuyen_sinh_lien_thong",
+        "question": "Chỉ tiêu liên thông từ cao đẳng lên đại học ngành Quản trị văn phòng năm 2025?",
+        "answer": "35 chỉ tiêu.",
+        "source": "Thông tin tuyển sinh 2025, phần liên thông",
+        "validation": {
+          "tfidf_self_match": true,
+          "tfidf_score": 1.0,
+          "doc_evidence": true
+        }
+      },
+      {
+        "id": "ICTU_Q234",
+        "category": "tuyen_sinh_lien_thong",
+        "question": "Chỉ tiêu liên thông từ trung cấp lên đại học ngành Quản trị văn phòng năm 2025 là bao nhiêu?",
+        "answer": "12 chỉ tiêu.",
+        "source": "Thông tin tuyển sinh 2025, phần liên thông",
+        "validation": {
+          "tfidf_self_match": true,
+          "tfidf_score": 1.0,
+          "doc_evidence": true
+        }
+      },
+      {
+        "id": "ICTU_Q235",
+        "category": "tuyen_sinh_lien_thong",
+        "question": "Chỉ tiêu liên thông từ cao đẳng lên đại học ngành Công nghệ thông tin năm 2025 là bao nhiêu?",
+        "answer": "19 chỉ tiêu.",
+        "source": "Thông tin tuyển sinh 2025, phần liên thông",
+        "validation": {
+          "tfidf_self_match": true,
+          "tfidf_score": 1.0,
+          "doc_evidence": true
+        }
+      },
+      {
+        "id": "ICTU_Q298",
+        "category": "tuyen_sinh_lien_thong",
+        "question": "Điều kiện xét tuyển văn bằng 2 dựa vào kết quả học tập bằng đại học thứ nhất?",
+        "answer": "Có, thí sinh cần có kết quả học tập toàn khóa của bằng thứ nhất đạt từ 2,0/4 hoặc 5,0/10 trở lên.",
+        "source": "Thông tin tuyển sinh 2025, phần liên thông",
+        "validation": {
+          "tfidf_self_match": true,
+          "tfidf_score": 1.0,
+          "doc_evidence": true
+        }
+      },
+      {
+        "id": "ICTU_Q299",
+        "category": "tuyen_sinh_lien_thong",
+        "question": "Chỉ tiêu tuyển sinh văn bằng 2 ngành Công nghệ thông tin năm 2025?",
+        "answer": "20 chỉ tiêu (theo mục 2.3.3, phần vừa làm vừa học).",
+        "source": "Thông tin tuyển sinh 2025, phần liên thông",
+        "validation": {
+          "tfidf_self_match": true,
+          "tfidf_score": 1.0,
+          "doc_evidence": true
+        }
+      },
+      {
+        "id": "ICTU_Q326",
+        "category": "tuyen_sinh_lien_thong",
+        "question": "Hồ sơ đăng ký liên thông gồm những gì?",
+        "answer": "Phiếu đăng ký, sơ yếu lý lịch, bản sao công chứng giấy khai sinh, CMND/CCCD, bằng tốt nghiệp THPT, học bạ THPT, bằng và bảng điểm của bậc học trung cấp/cao đẳng/đại học.",
+        "source": "Thông tin tuyển sinh 2025, phần liên thông",
+        "validation": {
+          "tfidf_self_match": true,
+          "tfidf_score": 1.0,
+          "doc_evidence": true
+        }
+      },
+      {
+        "id": "ICTU_Q351",
+        "category": "tuyen_sinh_lien_thong",
+        "question": "Điểm xét tuyển liên thông từ trung cấp lên đại học ngành Quản trị văn phòng năm 2024 theo phương thức khác là bao nhiêu?",
+        "answer": "5,7/10 (theo bảng thống kê năm 2023).",
+        "source": "Thông tin tuyển sinh 2025, phần thống kê",
+        "validation": {
+          "tfidf_self_match": true,
+          "tfidf_score": 1.0,
+          "doc_evidence": true
+        }
+      },
+      {
+        "id": "ICTU_Q373",
+        "category": "tuyen_sinh_lien_thong",
+        "question": "Hồ sơ liên thông có cần nộp bản chính để đối chiếu không?",
+        "answer": "Thường nộp bản sao công chứng, không cần nộp bản chính.",
+        "source": "Thông tin tuyển sinh 2025",
+        "validation": {
+          "tfidf_self_match": true,
+          "tfidf_score": 1.0,
+          "doc_evidence": true
+        }
+      }
+    ],
+    "tuyen_sinh_tu_xa": [
+      {
+        "id": "ICTU_Q044",
+        "category": "tuyen_sinh_tu_xa",
+        "question": "Đào tạo từ xa ngành Công nghệ thông tin tại ICTU có chỉ tiêu bao nhiêu?",
+        "answer": "700 chỉ tiêu.",
+        "source": "Thông tin tuyển sinh 2025, phần đào tạo từ xa",
+        "validation": {
+          "tfidf_self_match": true,
+          "tfidf_score": 1.0,
+          "doc_evidence": true
+        }
+      },
+      {
+        "id": "ICTU_Q045",
+        "category": "tuyen_sinh_tu_xa",
+        "question": "Học phí đào tạo từ xa ngành Công nghệ thông tin năm 2025-2026 là bao nhiêu?",
+        "answer": "1.640.000 đồng/tháng.",
+        "source": "Thông tin tuyển sinh 2025, phần đào tạo từ xa",
+        "validation": {
+          "tfidf_self_match": true,
+          "tfidf_score": 1.0,
+          "doc_evidence": true
+        }
+      },
+      {
+        "id": "ICTU_Q236",
+        "category": "tuyen_sinh_tu_xa",
+        "question": "Học phí đào tạo từ xa ngành Thương mại điện tử năm 2025-2026 dự kiến là bao nhiêu?",
+        "answer": "1.410.000 đồng/tháng.",
+        "source": "Thông tin tuyển sinh 2025, phần đào tạo từ xa",
+        "validation": {
+          "tfidf_self_match": true,
+          "tfidf_score": 1.0,
+          "doc_evidence": true
+        }
+      },
+      {
+        "id": "ICTU_Q237",
+        "category": "tuyen_sinh_tu_xa",
+        "question": "Địa chỉ liên hệ đăng ký học đại học từ xa tại ICTU?",
+        "answer": "Trung tâm Tin học, ngoại ngữ và đào tạo theo nhu cầu (Phòng 101, nhà C6) - Trường ĐH CNTT&TT, đường Z115, Quyết Thắng, TP Thái Nguyên. Hotline: 0869 34 35 39; 0828 233 234.",
+        "source": "Thông tin tuyển sinh 2025, phần đào tạo từ xa",
+        "validation": {
+          "tfidf_self_match": true,
+          "tfidf_score": 1.0,
+          "doc_evidence": true
+        }
+      },
+      {
+        "id": "ICTU_Q300",
+        "category": "tuyen_sinh_tu_xa",
+        "question": "Đối tượng nào có thể học đại học từ xa tại ICTU?",
+        "answer": "Người đã có bằng tốt nghiệp THPT hoặc tương đương trở lên (trung cấp, cao đẳng, đại học).",
+        "source": "Thông tin tuyển sinh 2025, phần đào tạo từ xa",
+        "validation": {
+          "tfidf_self_match": true,
+          "tfidf_score": 1.0,
+          "doc_evidence": true
+        }
+      },
+      {
+        "id": "ICTU_Q301",
+        "category": "tuyen_sinh_tu_xa",
+        "question": "Các đợt tuyển sinh đào tạo từ xa năm 2025 dự kiến vào thời gian nào?",
+        "answer": "Có 6 đợt: đến 10/01, 28/3, 06/6, 08/8, 10/10, 12/12/2025.",
+        "source": "Thông tin tuyển sinh 2025, phần đào tạo từ xa",
+        "validation": {
+          "tfidf_self_match": true,
+          "tfidf_score": 1.0,
+          "doc_evidence": true
+        }
+      },
+      {
+        "id": "ICTU_Q327",
+        "category": "tuyen_sinh_tu_xa",
+        "question": "Hồ sơ đăng ký học đại học từ xa gồm những gì?",
+        "answer": "Phiếu đăng ký, bản sao công chứng bằng tốt nghiệp THPT, học bạ THPT, CMND/CCCD, 02 ảnh 4x6. Nếu tốt nghiệp TC, CĐ, ĐH thì nộp thêm bằng và bảng điểm tương ứng.",
+        "source": "Thông tin tuyển sinh 2025, phần đào tạo từ xa",
+        "validation": {
+          "tfidf_self_match": true,
+          "tfidf_score": 1.0,
+          "doc_evidence": true
+        }
+      },
+      {
+        "id": "ICTU_Q374",
+        "category": "tuyen_sinh_tu_xa",
+        "question": "Sinh viên học từ xa có được tham gia các hoạt động ngoại khóa của trường không?",
+        "answer": "Có thể tham gia nếu có điều kiện và nguyện vọng, nhưng không bắt buộc như sinh viên chính quy tập trung.",
+        "source": "Thông tin tuyển sinh 2025",
+        "validation": {
+          "tfidf_self_match": true,
+          "tfidf_score": 1.0,
+          "doc_evidence": true
+        }
+      }
+    ],
+    "van_bang": [
+      {
+        "id": "ICTU_Q203",
+        "category": "van_bang",
+        "question": "Bằng tốt nghiệp đại học được cấp theo ngành đào tạo chính (đơn ngành hay song ngành)?",
+        "answer": "Đúng, bằng được cấp theo ngành đào tạo chính (có thể là đơn ngành hoặc song ngành).",
+        "source": "Điều 28, Quyết định 43/2007/QĐ-BGDĐT",
+        "validation": {
+          "tfidf_self_match": true,
+          "tfidf_score": 1.0,
+          "doc_evidence": true
+        }
+      },
+      {
+        "id": "ICTU_Q204",
+        "category": "van_bang",
+        "question": "Điều kiện xếp loại tốt nghiệp xuất sắc?",
+        "answer": "Điểm trung bình chung tích lũy toàn khóa đạt từ 3,60 đến 4,00.",
+        "source": "Điều 28, Quyết định 43/2007/QĐ-BGDĐT",
+        "validation": {
+          "tfidf_self_match": true,
+          "tfidf_score": 1.0,
+          "doc_evidence": true
+        }
+      },
+      {
+        "id": "ICTU_Q205",
+        "category": "van_bang",
+        "question": "Nếu sinh viên có điểm trung bình chung xuất sắc nhưng đã bị kỷ luật từ mức cảnh cáo trở lên thì xếp loại gì?",
+        "answer": "Bị giảm một mức, từ xuất sắc xuống giỏi.",
+        "source": "Điều 28, Quyết định 43/2007/QĐ-BGDĐT",
+        "validation": {
+          "tfidf_self_match": true,
+          "tfidf_score": 1.0,
+          "doc_evidence": true
+        }
+      },
+      {
+        "id": "ICTU_Q206",
+        "category": "van_bang",
+        "question": "Sinh viên không đủ điều kiện tốt nghiệp được cấp giấy tờ gì?",
+        "answer": "Được cấp giấy chứng nhận về các học phần đã học trong chương trình của trường.",
+        "source": "Điều 28, Quyết định 43/2007/QĐ-BGDĐT",
+        "validation": {
+          "tfidf_self_match": true,
+          "tfidf_score": 1.0,
+          "doc_evidence": true
+        }
+      },
+      {
+        "id": "ICTU_Q286",
+        "category": "van_bang",
+        "question": "Bằng tốt nghiệp đại học do ICTU cấp có giá trị trên toàn quốc không?",
+        "answer": "Có, bằng tốt nghiệp đại học của ICTU do Bộ GDĐT cho phép đào tạo, có giá trị pháp lý trên toàn quốc.",
+        "source": "Quy chế đào tạo",
+        "validation": {
+          "tfidf_self_match": true,
+          "tfidf_score": 1.0,
+          "doc_evidence": true
+        }
+      },
+      {
+        "id": "ICTU_Q316",
+        "category": "van_bang",
+        "question": "Bảng điểm tốt nghiệp có ghi hình thức đào tạo (chính quy, vừa làm vừa học, từ xa) không?",
+        "answer": "Có, bảng điểm sẽ ghi rõ hình thức đào tạo.",
+        "source": "Quy chế đào tạo",
+        "validation": {
+          "tfidf_self_match": true,
+          "tfidf_score": 1.0,
+          "doc_evidence": true
+        }
+      },
+      {
+        "id": "ICTU_Q341",
+        "category": "van_bang",
+        "question": "Bằng tốt nghiệp có ghi rõ chuyên ngành đào tạo không?",
+        "answer": "Có, bảng điểm sẽ ghi chi tiết chuyên ngành (hướng chuyên sâu) hoặc ngành phụ (nếu có). Bằng chính thường ghi ngành đào tạo chính.",
+        "source": "Điều 28, Quyết định 43/2007/QĐ-BGDĐT",
+        "validation": {
+          "tfidf_self_match": true,
+          "tfidf_score": 1.0,
+          "doc_evidence": true
+        }
+      },
+      {
+        "id": "ICTU_Q364",
+        "category": "van_bang",
+        "question": "Sinh viên có thể yêu cầu cấp bản sao bằng tốt nghiệp tại trường không?",
+        "answer": "Có, Phòng Đào tạo sẽ hướng dẫn thủ tục xin cấp bản sao văn bằng, chứng chỉ.",
+        "source": "Quy chế đào tạo",
+        "validation": {
+          "tfidf_self_match": true,
+          "tfidf_score": 1.0,
+          "doc_evidence": true
+        }
+      },
+      {
+        "id": "ICTU_Q386",
+        "category": "van_bang",
+        "question": "Bằng tốt nghiệp có thể được gửi qua bưu điện không?",
+        "answer": "Có, sinh viên có thể đăng ký dịch vụ chuyển phát bằng tốt nghiệp qua bưu điện sau khi hoàn thành thủ tục tốt nghiệp.",
+        "source": "Quy chế đào tạo",
+        "validation": {
+          "tfidf_self_match": true,
+          "tfidf_score": 1.0,
+          "doc_evidence": true
+        }
+      },
+      {
+        "id": "ICTU_Q407",
+        "category": "van_bang",
+        "question": "Sinh viên tốt nghiệp loại xuất sắc có được cấp bằng đỏ không?",
+        "answer": "Bằng tốt nghiệp đại học không phân biệt màu sắc theo loại tốt nghiệp. Loại tốt nghiệp được ghi trong bảng điểm và quyết định công nhận tốt nghiệp.",
+        "source": "Quy chế đào tạo",
+        "validation": {
+          "tfidf_self_match": true,
+          "tfidf_score": 1.0,
+          "doc_evidence": true
+        }
+      }
+    ],
+    "viec_lam": [
+      {
+        "id": "ICTU_Q190",
+        "category": "viec_lam",
+        "question": "Sinh viên tốt nghiệp ngành Công nghệ thông tin từ ICTU có thể làm những công việc gì?",
+        "answer": "Lập trình viên, kiểm thử viên, chuyên viên phân tích hệ thống, quản trị mạng, chuyên gia an ninh mạng, quản trị cơ sở dữ liệu, chuyên viên AI, khoa học dữ liệu, v.v.",
+        "source": "Thông tin tuyển sinh",
+        "validation": {
+          "tfidf_self_match": true,
+          "tfidf_score": 1.0,
+          "doc_evidence": true
+        }
+      },
+      {
+        "id": "ICTU_Q191",
+        "category": "viec_lam",
+        "question": "Nhà trường có thường xuyên tổ chức Ngày hội việc làm không?",
+        "answer": "Có, định kỳ hàng năm, trường phối hợp với các doanh nghiệp tổ chức ngày hội việc làm để kết nối sinh viên sắp tốt nghiệp với nhà tuyển dụng.",
+        "source": "Sổ tay sinh viên 2025-2026",
+        "validation": {
+          "tfidf_self_match": true,
+          "tfidf_score": 1.0,
+          "doc_evidence": true
+        }
+      },
+      {
+        "id": "ICTU_Q192",
+        "category": "viec_lam",
+        "question": "Sinh viên có thể tham gia các khóa đào tạo ngắn hạn để nâng cao kỹ năng tại trung tâm nào?",
+        "answer": "Tại Trung tâm Tin học, Ngoại ngữ và Đào tạo theo nhu cầu (Phòng 101, nhà C6).",
+        "source": "Sổ tay sinh viên 2025-2026",
+        "validation": {
+          "tfidf_self_match": true,
+          "tfidf_score": 1.0,
+          "doc_evidence": true
+        }
+      },
+      {
+        "id": "ICTU_Q281",
+        "category": "viec_lam",
+        "question": "Các doanh nghiệp thường tuyển dụng sinh viên ICTU qua kênh nào?",
+        "answer": "Qua các ngày hội việc làm tại trường, qua bảng tin việc làm trên website trường, hoặc qua giới thiệu của giảng viên, cựu sinh viên.",
+        "source": "Sổ tay sinh viên",
+        "validation": {
+          "tfidf_self_match": true,
+          "tfidf_score": 1.0,
+          "doc_evidence": true
+        }
+      },
+      {
+        "id": "ICTU_Q312",
+        "category": "viec_lam",
+        "question": "Sinh viên năm cuối thường được các doanh nghiệp trong và ngoài tỉnh tuyển dụng qua hình thức nào?",
+        "answer": "Qua các buổi hội thảo tuyển dụng, phỏng vấn trực tiếp tại trường, qua các bài test tuyển dụng do doanh nghiệp tổ chức.",
+        "source": "Sổ tay sinh viên",
+        "validation": {
+          "tfidf_self_match": true,
+          "tfidf_score": 1.0,
+          "doc_evidence": true
+        }
+      },
+      {
+        "id": "ICTU_Q337",
+        "category": "viec_lam",
+        "question": "ICTU có hỗ trợ sinh viên khởi nghiệp không?",
+        "answer": "Có, thông qua các cuộc thi ý tưởng sáng tạo, các hoạt động của Trung tâm hỗ trợ sinh viên và các câu lạc bộ khởi nghiệp.",
+        "source": "Sổ tay sinh viên",
+        "validation": {
+          "tfidf_self_match": true,
+          "tfidf_score": 1.0,
+          "doc_evidence": true
+        }
+      },
+      {
+        "id": "ICTU_Q360",
+        "category": "viec_lam",
+        "question": "Các công ty công nghệ thông tin lớn nào thường tuyển dụng sinh viên ICTU?",
+        "answer": "Các công ty trong và ngoài nước như FPT Software, Viettel, VNPT, các công ty Nhật Bản, Hàn Quốc tại các KCN Bắc Ninh, Bắc Giang, Hà Nội.",
+        "source": "Sổ tay sinh viên",
+        "validation": {
+          "tfidf_self_match": true,
+          "tfidf_score": 1.0,
+          "doc_evidence": true
+        }
+      },
+      {
+        "id": "ICTU_Q382",
+        "category": "viec_lam",
+        "question": "ICTU có tổ chức các khóa học kỹ năng mềm (kỹ năng phỏng vấn, viết CV) cho sinh viên không?",
+        "answer": "Có, thường xuyên tổ chức các buổi workshop, tọa đàm về kỹ năng tìm việc, kỹ năng phỏng vấn.",
+        "source": "Sổ tay sinh viên",
+        "validation": {
+          "tfidf_self_match": true,
+          "tfidf_score": 1.0,
+          "doc_evidence": true
+        }
+      },
+      {
+        "id": "ICTU_Q403",
+        "category": "viec_lam",
+        "question": "ICTU có mối quan hệ hợp tác với những doanh nghiệp nào trong lĩnh vực CNTT?",
+        "answer": "Hợp tác với nhiều doanh nghiệp như FPT Software, Viettel, VNPT, các công ty Nhật Bản (Fujitsu, Hitachi) và Hàn Quốc.",
+        "source": "Sổ tay sinh viên",
+        "validation": {
+          "tfidf_self_match": true,
+          "tfidf_score": 1.0,
+          "doc_evidence": true
+        }
+      },
+      {
+        "id": "ICTU_Q424",
+        "category": "viec_lam",
+        "question": "Sinh viên tốt nghiệp ngành Công nghệ kỹ thuật điện tử - viễn thông có thể làm ở đâu?",
+        "answer": "Các công ty viễn thông (Viettel, VNPT, Mobifone), các công ty sản xuất thiết bị điện tử, công ty thiết kế vi mạch, v.v.",
+        "source": "Thông tin tuyển sinh",
+        "validation": {
+          "tfidf_self_match": true,
+          "tfidf_score": 1.0,
+          "doc_evidence": true
+        }
+      }
+    ],
+    "y_te": [
+      {
+        "id": "ICTU_Q184",
+        "category": "y_te",
+        "question": "Sinh viên có bắt buộc tham gia bảo hiểm y tế (BHYT) không?",
+        "answer": "Có, sinh viên đang học tại trường thuộc đối tượng bắt buộc tham gia BHYT.",
+        "source": "Sổ tay sinh viên 2025-2026",
+        "validation": {
+          "tfidf_self_match": true,
+          "tfidf_score": 1.0,
+          "doc_evidence": true
+        }
+      },
+      {
+        "id": "ICTU_Q185",
+        "category": "y_te",
+        "question": "Mức đóng BHYT sinh viên hàng năm được xác định thế nào?",
+        "answer": "Mức đóng bằng 4,5% mức lương cơ sở tại thời điểm đóng, trong đó ngân sách nhà nước hỗ trợ 30%, sinh viên tự đóng 70%.",
+        "source": "Luật BHYT và các văn bản hướng dẫn",
+        "validation": {
+          "tfidf_self_match": true,
+          "tfidf_score": 1.0,
+          "doc_evidence": true
+        }
+      },
+      {
+        "id": "ICTU_Q186",
+        "category": "y_te",
+        "question": "Sinh viên có thể khám chữa bệnh ban đầu tại trạm y tế trường không?",
+        "answer": "Có, trạm y tế trường là nơi khám chữa bệnh ban đầu cho sinh viên.",
+        "source": "Sổ tay sinh viên 2025-2026",
+        "validation": {
+          "tfidf_self_match": true,
+          "tfidf_score": 1.0,
+          "doc_evidence": true
+        }
+      },
+      {
+        "id": "ICTU_Q187",
+        "category": "y_te",
+        "question": "Sinh viên muốn xin giấy chứng nhận sức khỏe để đi thực tập hoặc xin việc thì đến đâu?",
+        "answer": "Có thể đến Trạm Y tế trường hoặc các bệnh viện, cơ sở y tế có thẩm quyền để khám và cấp giấy.",
+        "source": "Sổ tay sinh viên 2025-2026",
+        "validation": {
+          "tfidf_self_match": true,
+          "tfidf_score": 1.0,
+          "doc_evidence": true
+        }
+      },
+      {
+        "id": "ICTU_Q261",
+        "category": "y_te",
+        "question": "Sinh viên bị ốm đột xuất phải nghỉ học dài ngày cần báo cáo với ai?",
+        "answer": "Cần báo cáo với giáo viên chủ nhiệm/cố vấn học tập và khoa quản lý, đồng thời xin giấy xác nhận của cơ sở y tế để làm thủ tục nghỉ ốm theo quy định.",
+        "source": "Điều 13, Quyết định 43/2007/QĐ-BGDĐT",
+        "validation": {
+          "tfidf_self_match": true,
+          "tfidf_score": 1.0,
+          "doc_evidence": true
+        }
+      },
+      {
+        "id": "ICTU_Q279",
+        "category": "y_te",
+        "question": "Khi khám chữa bệnh tại trạm y tế trường, sinh viên có cần mang theo thẻ BHYT không?",
+        "answer": "Có, cần mang theo thẻ BHYT và thẻ sinh viên để được hưởng quyền lợi khám chữa bệnh BHYT đúng tuyến.",
+        "source": "Sổ tay sinh viên",
+        "validation": {
+          "tfidf_self_match": true,
+          "tfidf_score": 1.0,
+          "doc_evidence": true
+        }
+      },
+      {
+        "id": "ICTU_Q310",
+        "category": "y_te",
+        "question": "Sinh viên có thể khám chữa bệnh tại bệnh viện nào khi có thẻ BHYT do trường cấp?",
+        "answer": "Theo quy định, nơi đăng ký KCB ban đầu thường là trạm y tế trường hoặc một bệnh viện tuyến huyện/tỉnh trên địa bàn. Cần xem hướng dẫn trên thẻ BHYT.",
+        "source": "Sổ tay sinh viên",
+        "validation": {
+          "tfidf_self_match": true,
+          "tfidf_score": 1.0,
+          "doc_evidence": true
+        }
+      },
+      {
+        "id": "ICTU_Q335",
+        "category": "y_te",
+        "question": "Khi đi khám chữa bệnh tại bệnh viện, sinh viên cần xuất trình những giấy tờ gì để được hưởng BHYT?",
+        "answer": "Thẻ BHYT, CMND/CCCD, và giấy tờ tùy thân khác (nếu cần).",
+        "source": "Luật BHYT",
+        "validation": {
+          "tfidf_self_match": true,
+          "tfidf_score": 1.0,
+          "doc_evidence": true
+        }
+      },
+      {
+        "id": "ICTU_Q358",
+        "category": "y_te",
+        "question": "Sinh viên có thể mua thuốc thông thường tại trạm y tế trường không?",
+        "answer": "Có, trạm y tế thường có sẵn một số loại thuốc thông dụng để phục vụ sinh viên.",
+        "source": "Sổ tay sinh viên",
+        "validation": {
+          "tfidf_self_match": true,
+          "tfidf_score": 1.0,
+          "doc_evidence": true
+        }
+      },
+      {
+        "id": "ICTU_Q380",
+        "category": "y_te",
+        "question": "Sinh viên có thể xin giấy giới thiệu lên tuyến trên khi khám chữa bệnh tại trạm y tế không?",
+        "answer": "Có, nếu bệnh vượt quá khả năng điều trị, trạm y tế sẽ cấp giấy chuyển tuyến.",
+        "source": "Sổ tay sinh viên",
+        "validation": {
+          "tfidf_self_match": true,
+          "tfidf_score": 1.0,
+          "doc_evidence": true
+        }
+      }
+    ]
+  }
+}
