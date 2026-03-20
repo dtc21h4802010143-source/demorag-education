@@ -13,9 +13,7 @@ services:
       - key: SECRET_KEY
         generateValue: true
       - key: CORS_ORIGINS
-        sync: false
-      - key: GROQ_API_KEY
-        sync: false
+        value: "*"
       - key: GROQ_MODEL
         value: llama-3.3-70b-versatile
       - key: DATABASE_URL
@@ -30,7 +28,7 @@ services:
     staticPublishPath: dist
     envVars:
       - key: VITE_API_BASE
-        sync: false
+        value: https://demorag-education-backend.onrender.com
     routes:
       - type: rewrite
         source: /*
