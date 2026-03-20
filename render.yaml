@@ -21,8 +21,9 @@ services:
       - key: CHROMA_PERSIST_DIR
         value: ./chroma_data
 
-  - type: static
+  - type: web
     name: demorag-education-frontend
+    runtime: static
     rootDir: frontend
     buildCommand: npm ci && npm run build
     staticPublishPath: dist
