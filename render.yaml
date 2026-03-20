@@ -1,0 +1,37 @@
+services:
+  - type: web
+    name: demorag-education-backend
+    runtime: python
+    rootDir: backend
+    plan: free
+    buildCommand: pip install -r requirements.txt
+    startCommand: uvicorn app.main:app --host 0.0.0.0 --port $PORT
+    healthCheckPath: /health
+    envVars:
+      - key: APP_ENV
+        value: prod
+      - key: SECRET_KEY
+        generateValue: true
+      - key: CORS_ORIGINS
+        sync: false
+      - key: GROQ_API_KEY
+        sync: false
+      - key: GROQ_MODEL
+        value: llama-3.3-70b-versatile
+      - key: DATABASE_URL
+        value: sqlite:///./app.db
+      - key: CHROMA_PERSIST_DIR
+        value: ./chroma_data
+
+  - type: static
+    name: demorag-education-frontend
+    rootDir: frontend
+    buildCommand: npm ci && npm run build
+    staticPublishPath: dist
+    envVars:
+      - key: VITE_API_BASE
+        sync: false
+    routes:
+      - type: rewrite
+        source: /*
+        destination: /index.html
